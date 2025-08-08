@@ -1,0 +1,9 @@
+[submodule "Type-C.pretty"]
+	path = pcb/Type-C.pretty
+	url = git@github.com:ai03-2725/Type-C.pretty.git
+[submodule "keyswitches.pretty"]
+	path = pcb/keyswitches.pretty
+	url = git@github.com:daprice/keyswitches.pretty.git
+[submodule "pcb/zzkeeb"]
+	path = pcb/zzkeeb
+	url = git@github.com:zzeneg/zzkeeb.git
