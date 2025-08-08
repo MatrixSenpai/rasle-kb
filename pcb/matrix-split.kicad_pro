@@ -485,14 +485,111 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 1,
+        "name": "Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(43, 83, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 2,
+        "name": "Switch",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(61, 255, 73)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 3,
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 58, 37)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 4,
+        "name": "VSYS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(165, 10, 45)",
+        "wire_width": 8
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "Net-(SKD12-DOUT)": [
+        "Data"
+      ],
+      "Net-(SKD13-DIN)": [
+        "Data"
+      ],
+      "Net-(SKD18-DOUT)": [
+        "Data"
+      ],
+      "Net-(SKD19-DIN)": [
+        "Data"
+      ],
+      "ROW1": [
+        "Switch"
+      ],
+      "ROW2": [
+        "Switch"
+      ],
+      "ROW3": [
+        "Switch"
+      ],
+      "ROW4": [
+        "Switch"
+      ],
+      "ROW5": [
+        "Switch"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "VSYS",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "*TX"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "*RX"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Q_S*"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "*LED"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "COL*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ROW*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -667,6 +764,14 @@
     [
       "bd77e39a-232e-4679-a59e-1ed749fff845",
       "Root"
+    ],
+    [
+      "7fc7b2d2-93ad-4707-8a9c-1d325a74787a",
+      "switch_matrix"
+    ],
+    [
+      "668d6dca-694d-4459-8416-f27b833ee9e9",
+      "power_comms"
     ]
   ],
   "text_variables": {}
