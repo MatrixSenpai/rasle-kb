@@ -300,7 +300,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/210b869d-8086-4ad6-987e-c7a1aaa7923c")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -638,7 +638,7 @@
 			(net 7 "ROW2")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "a725e5bc-6e19-4fc7-b3a8-79637aef2828")
+			(uuid "6e2dfe09-a9e4-4d3e-9474-3e701b14513a")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -658,7 +658,7 @@
 			(net 62 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "4e2e40a9-b659-40b7-88eb-d8b30d672969")
+			(uuid "0c0133b3-4c67-4c9f-a7af-68fa0b6caf81")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -781,7 +781,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/990fb76a-35b9-4eef-8722-9ee1237e4fff")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -1119,7 +1119,7 @@
 			(net 6 "ROW1")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "1fa0fb7e-ef08-4f25-b7b2-528cb9ebe389")
+			(uuid "d1ea59e6-1a56-4e60-bc32-e8cadd841f33")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -1139,7 +1139,7 @@
 			(net 60 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "e0678800-889f-490f-baa7-53bb371620ad")
+			(uuid "3012bd84-69e9-4219-a84c-9f8ab08e5d2e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -1210,7 +1210,7 @@
 		(path "/c0e47700-1a11-4d3c-8927-edf44d66c1d8")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -1562,7 +1562,7 @@
 			(roundrect_rratio 0.243902)
 			(net 20 "Net-(USB1-CC2)")
 			(pintype "passive")
-			(uuid "178a55a6-bfea-4421-acdd-d2e0f2df5d49")
+			(uuid "c458bdd8-bfc0-4df8-99fb-245378cf7db2")
 		)
 		(pad "2" smd roundrect
 			(at 0.9125 0 180)
@@ -1580,7 +1580,7 @@
 			(roundrect_rratio 0.243902)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "7d2a3524-b550-45b7-8860-26efa14ed2ff")
+			(uuid "65336b86-2086-4de0-acd4-74b516c9e02b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -1654,7 +1654,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/0420d353-4a3a-496c-ad36-6f2066b22feb")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -1967,7 +1967,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "5df0b23b-72df-49f0-966d-89ac3c919ed3")
+			(uuid "d2901f3f-ebe6-4456-9d77-4b775ebb571e")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -1985,7 +1985,7 @@
 			(net 103 "Net-(SKD25-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "b71d89e7-dbfa-4937-a671-bd9ef2739a57")
+			(uuid "5a6cecc5-b8fd-4d14-af22-8e902fd487ea")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -2005,7 +2005,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "0fad8c22-f8e5-4bb8-b291-95b373bb89f0")
+			(uuid "db116016-a6f8-48d4-a138-b62d8b70f9ae")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -2023,7 +2023,7 @@
 			(net 104 "Net-(SKD26-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "08b05bc0-3e61-4009-9de5-1c4044bedfee")
+			(uuid "779d759d-07a3-4a67-85de-8c45985f7a20")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -2146,7 +2146,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/3c8f3fb2-8739-434a-bff2-e94438ce43f1")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -2484,7 +2484,7 @@
 			(net 7 "ROW2")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "a7e25773-8ae3-427b-b004-a91d9addbc02")
+			(uuid "c4ebfb28-0234-48d0-a6e7-5788d4ba0dc2")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -2504,7 +2504,7 @@
 			(net 64 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "77c6e91f-9d15-431b-8a3a-7bd290c7bedc")
+			(uuid "c6e7b870-063d-41aa-bf61-84f4bba0060e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -2578,7 +2578,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/428308b5-cf93-4473-a192-4c141977e95b")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -2891,7 +2891,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "76cac105-056f-49e4-9dbc-f23f304a0e2c")
+			(uuid "795d8815-4d2b-4069-8b9b-c95e62510f7d")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -2909,7 +2909,7 @@
 			(net 99 "Net-(SKD20-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "e33b7c59-a68d-421f-89e2-704b25be0677")
+			(uuid "954fc017-fcca-48a5-a084-68eb8ee24606")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -2929,7 +2929,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "ea064e9e-f9c9-4329-93b1-0af3a8c5d660")
+			(uuid "b541bdb8-ecdc-42c1-866b-11aa4906ea7f")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -2947,7 +2947,7 @@
 			(net 100 "Net-(SKD21-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "ab3af1e1-df3b-4282-af8b-ce6535e9c793")
+			(uuid "f8e5770c-d028-40ac-b93a-98b074d9e0ec")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -3018,7 +3018,7 @@
 		(path "/11256c6d-7d90-453d-ba4c-279d392ba1f3")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -3318,7 +3318,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "d8b9f703-b1a1-42cf-8c49-641dcdd7d3e6")
+			(uuid "235504d8-7b55-4f21-8873-c05b448d15b8")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 180)
@@ -3336,7 +3336,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "6cef2246-5c57-4e99-be3c-45c4d478e5ca")
+			(uuid "23e79416-413d-4862-854e-2aa2a2addce4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -3407,7 +3407,7 @@
 		(path "/c249bc2b-3cfa-484b-b3e5-d70ff35489d8")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -3759,7 +3759,7 @@
 			(roundrect_rratio 0.243902)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "f2674174-ce08-493f-b476-26f8908ba843")
+			(uuid "d98f0306-8d4a-426e-ae78-a3d42437a2d3")
 		)
 		(pad "2" smd roundrect
 			(at 0.9125 0 90)
@@ -3777,7 +3777,7 @@
 			(roundrect_rratio 0.243902)
 			(net 54 "Net-(D60-K)")
 			(pintype "passive")
-			(uuid "86a94615-db5a-4d28-86fc-52e9a2cdc8be")
+			(uuid "b6dada94-b6bf-4dca-8d4e-2cfe82240ea4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -3851,7 +3851,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/e73c09ff-f05d-44f7-b51d-3390e3b8284e")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -4164,7 +4164,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "22b7cdb9-cb34-4798-9182-35459ba2a1a7")
+			(uuid "20845a6b-f054-411e-be52-4d6b1b2ae7e6")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -4182,7 +4182,7 @@
 			(net 89 "Net-(SKD5-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "4740d2da-0df6-47fe-89d4-036daf11f640")
+			(uuid "7633f7df-a810-4cad-b683-995eee39f93d")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -4202,7 +4202,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "cb84af10-4cc3-4ab3-9c08-0158714c569c")
+			(uuid "1d9b21c1-a4cb-4fcd-a45f-0133ffbfd2e2")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -4220,7 +4220,7 @@
 			(net 110 "Net-(SKD12-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "92adc9ad-0be1-4a6d-8f8e-f74aabc7a2b4")
+			(uuid "b0de146f-183b-4fec-b91b-627f06b5153e")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -4343,7 +4343,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/1f69482d-3802-4b6e-8ec3-9ff2da0e3f12")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -4681,7 +4681,7 @@
 			(net 10 "ROW5")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "1d03299d-13c3-42c0-8d3b-b3b56f9d9ca7")
+			(uuid "2329c6bf-5a6b-4aae-a900-839c180d2f6d")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -4701,7 +4701,7 @@
 			(net 80 "Net-(D25-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "b0f3b1e7-81ee-45e7-8bb6-dc39d8b53422")
+			(uuid "90172ea1-dd7d-4244-a3e2-351c3191ed33")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -4775,7 +4775,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/bb88ec8d-e755-4f71-8973-9374ccae91bd")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -5088,7 +5088,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "2e150163-4d9f-4e20-bc61-46b961477d00")
+			(uuid "bee0e1d4-c5a2-40ea-9aee-e65b150e34da")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -5106,7 +5106,7 @@
 			(net 113 "Net-(SKD11-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "e111a1a3-6581-439b-9bec-ad675cb2c552")
+			(uuid "3ee23a83-e10b-44e4-a402-71b057fd6193")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -5126,7 +5126,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "e696f65d-ca29-4250-892f-fb7d86c6cc2c")
+			(uuid "49a2536d-7a8a-4423-80d9-a651264ecacc")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -5144,7 +5144,7 @@
 			(net 110 "Net-(SKD12-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "3681862f-cf9c-4582-9cc1-34b7b3576be4")
+			(uuid "9500f67f-beb2-4481-a889-09c0d0475537")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -5218,7 +5218,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/d586acfd-a4ca-4718-80e1-a397c5213e99")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -5531,7 +5531,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "26b67140-6c2a-4f6a-8b2c-20952afbff10")
+			(uuid "37c14ab3-1c2d-4a60-8361-51f026690639")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -5549,7 +5549,7 @@
 			(net 93 "Net-(SKD14-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "fd833b04-dfda-4fc3-845c-cf40ef4591db")
+			(uuid "5839b936-4ae6-471d-ae8b-5b225a06abe1")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -5569,7 +5569,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "f014d4a4-2d01-4542-8df1-2cf5567b1f57")
+			(uuid "dd9055ca-b9ed-472a-99e1-a6ef4b53b9f6")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -5587,7 +5587,7 @@
 			(net 94 "Net-(SKD15-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "39f50ec0-6af1-41cc-af34-5342c5792b5a")
+			(uuid "e9df66cc-f087-4204-8c5c-11c29745aa9f")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -5683,7 +5683,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/01ff5f9e-7a79-490a-a745-6c1908dedad6")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -6991,7 +6991,7 @@
 			(net 60 "Net-(D5-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0248ad49-29bd-4503-960c-f40ed442cd8d")
+			(uuid "10ecbaf7-b2a0-4abf-9430-a29306321046")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -7011,7 +7011,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "377f9257-1a23-4dce-8a3c-c9ec62945ed8")
+			(uuid "f1bf5496-60e2-498e-9ad5-77ca0a13b207")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -7082,7 +7082,7 @@
 		(path "/668d6dca-694d-4459-8416-f27b833ee9e9/f09abb81-1f6a-49a0-b2b8-b2360e090171")
 		(sheetname "/power_comms/")
 		(sheetfile "power_comms.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -7382,7 +7382,7 @@
 			(roundrect_rratio 0.25)
 			(net 5 "VBUS")
 			(pintype "passive")
-			(uuid "fe74117e-af29-45e6-9055-cbe45cbd3c9d")
+			(uuid "8c0d02cc-efcd-441c-a725-591762b4a700")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 90)
@@ -7400,7 +7400,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "60329bf1-e07d-4c5c-a4f9-b25edf0eda70")
+			(uuid "a15084a5-b7a1-49b7-bea2-fd0c4a48a7b4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -7471,7 +7471,7 @@
 		(path "/c47949a6-7974-46e5-ba15-0e924ae51c46")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -7771,7 +7771,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "1d219d47-ac05-4c60-a36d-35dee9cbfb8c")
+			(uuid "7786cc87-a50a-429a-a813-e33ad0581b3a")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
@@ -7789,7 +7789,7 @@
 			(roundrect_rratio 0.25)
 			(net 3 "Net-(C2-Pad2)")
 			(pintype "passive")
-			(uuid "1afb8324-3d84-40c7-abac-422cebe43f2a")
+			(uuid "8dcd4396-de0f-46e4-b8f9-f7fe1f6c9803")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -7912,7 +7912,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/3f56ae0a-73ac-49a6-9616-723cdb6899c6")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 0.96)
 			(end 1 0.96)
@@ -7950,13 +7950,13 @@
 				(xy 0.021752 0.063813) (xy 0.002907 0.053512) (xy -0.011939 0.045715) (xy -0.023481 0.040077) (xy -0.032413 0.036251)
 				(xy -0.03943 0.033891) (xy -0.045226 0.032653) (xy -0.050496 0.032189) (xy -0.053597 0.032139) (xy -0.073905 0.032139)
 				(xy -0.073905 0.094643) (xy -0.073905 0.157147) (xy -0.116876 0.157147) (xy -0.159847 0.157147)
-				(xy -0.159847 0.094643) (xy -0.159848 0.032139) (xy -0.284855 0.032139) (xy -0.409862 0.032139)
+				(xy -0.159847 0.094643) (xy -0.159848 0.032139) (xy -0.284855 0.032139) (xy -0.409861 0.032139)
 				(xy -0.409863 -0.010832) (xy -0.409863 -0.053804) (xy -0.284855 -0.053804) (xy -0.159847 -0.053804)
 				(xy -0.159847 -0.116307) (xy -0.159847 -0.178811) (xy -0.116876 -0.178811) (xy -0.073905 -0.178811)
 				(xy -0.073905 -0.116307) (xy -0.073905 -0.053804) (xy -0.053597 -0.053804) (xy -0.048313 -0.053975)
 				(xy -0.042907 -0.054721) (xy -0.036684 -0.056386) (xy -0.028951 -0.059317) (xy -0.019012 -0.063859)
 				(xy -0.006173 -0.070358) (xy 0.010261 -0.07916) (xy 0.030984 -0.09061) (xy 0.056691 -0.105056) (xy 0.088075 -0.122841)
-				(xy 0.109226 -0.134863) (xy 0.139737 -0.152205) (xy 0.168162 -0.168338) (xy 0.19378 -0.182854) (xy 0.215867 -0.195347)
+				(xy 0.109226 -0.134863) (xy 0.139737 -0.152205) (xy 0.168162 -0.168337) (xy 0.19378 -0.182854) (xy 0.215867 -0.195347)
 				(xy 0.233701 -0.205405) (xy 0.246559 -0.21262) (xy 0.253719 -0.216586) (xy 0.254944 -0.217225) (xy 0.255892 -0.213907)
 				(xy 0.256729 -0.203891) (xy 0.257411 -0.188292) (xy 0.257891 -0.168226) (xy 0.258129 -0.144807)
 				(xy 0.258147 -0.136165) (xy 0.258147 -0.053804) (xy 0.342137 -0.053804) (xy 0.426126 -0.053804)
@@ -8007,13 +8007,13 @@
 				(xy 0.249214 -0.209596) (xy 0.23917 -0.203986) (xy 0.223782 -0.195326) (xy 0.203774 -0.184024) (xy 0.179865 -0.170489)
 				(xy 0.15278 -0.155128) (xy 0.123243 -0.138351) (xy 0.107474 -0.129386) (xy 0.072465 -0.109498) (xy 0.043538 -0.093151)
 				(xy 0.02 -0.08) (xy 0.001155 -0.069699) (xy -0.013691 -0.061902) (xy -0.025233 -0.056264) (xy -0.034165 -0.052438)
-				(xy -0.041182 -0.050078) (xy -0.046979 -0.04884) (xy -0.052249 -0.048376) (xy -0.055349 -0.048326)
+				(xy -0.041182 -0.050078) (xy -0.04698 -0.04884) (xy -0.052249 -0.048376) (xy -0.055349 -0.048326)
 				(xy -0.075657 -0.048326) (xy -0.075657 -0.11083) (xy -0.075657 -0.173334) (xy -0.118628 -0.173334)
 				(xy -0.1616 -0.173334) (xy -0.161599 -0.110829) (xy -0.161599 -0.048326) (xy -0.286607 -0.048326)
-				(xy -0.411615 -0.048326) (xy -0.411615 -0.005355) (xy -0.411616 0.037617) (xy -0.286607 0.037617)
+				(xy -0.411615 -0.048326) (xy -0.411615 -0.005355) (xy -0.411617 0.037617) (xy -0.286607 0.037617)
 				(xy -0.161599 0.037617) (xy -0.161599 0.10012) (xy -0.161599 0.162624) (xy -0.118628 0.162624) (xy -0.075657 0.162624)
 				(xy -0.075657 0.10012) (xy -0.075657 0.037617) (xy -0.055349 0.037617) (xy -0.050065 0.037788) (xy -0.044659 0.038534)
-				(xy -0.038436 0.040199) (xy -0.030703 0.04313) (xy -0.020764 0.047672) (xy -0.007925 0.054171) (xy 0.008509 0.062974)
+				(xy -0.038436 0.040199) (xy -0.030703 0.04313) (xy -0.020764 0.047672) (xy -0.007925 0.054171) (xy 0.008509 0.062975)
 				(xy 0.029232 0.074423) (xy 0.054939 0.088869) (xy 0.086323 0.106654) (xy 0.107474 0.118677) (xy 0.137985 0.136018)
 				(xy 0.16641 0.152152) (xy 0.192028 0.166668) (xy 0.214115 0.17916) (xy 0.231949 0.189218) (xy 0.244807 0.196433)
 				(xy 0.251967 0.200399) (xy 0.253192 0.201038) (xy 0.25414 0.19772) (xy 0.254977 0.187704) (xy 0.255658 0.172105)
@@ -8112,7 +8112,7 @@
 		)
 		(fp_line
 			(start -1 0.3)
-			(end -1 -0.600001)
+			(end -1 -0.600002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -8131,7 +8131,7 @@
 			(uuid "4e809d88-98f0-4416-aa97-9796cd330513")
 		)
 		(fp_line
-			(start -1 -0.600001)
+			(start -1 -0.600002)
 			(end 1 -0.599999)
 			(stroke
 				(width 0.1)
@@ -8141,7 +8141,7 @@
 			(uuid "974a0e72-7d7f-4f97-8fe0-fbb53819aac5")
 		)
 		(fp_line
-			(start 1 0.600001)
+			(start 1 0.600002)
 			(end -0.700001 0.6)
 			(stroke
 				(width 0.1)
@@ -8152,7 +8152,7 @@
 		)
 		(fp_line
 			(start 1 -0.599999)
-			(end 1 0.600001)
+			(end 1 0.600002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -8162,7 +8162,7 @@
 		)
 		(fp_line
 			(start -1 0.599999)
-			(end 1 0.600001)
+			(end 1 0.600002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -8191,7 +8191,7 @@
 			(uuid "7865722a-b549-47aa-8a4b-72c17151bd9a")
 		)
 		(fp_line
-			(start 1 0.600001)
+			(start 1 0.600002)
 			(end 1 -0.599999)
 			(stroke
 				(width 0.1)
@@ -8251,7 +8251,7 @@
 			(net 83 "Net-(D28-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "e5186a03-8f95-4a07-9927-d2a4fb1a8b59")
+			(uuid "4f361abb-5a25-402a-bcb1-bfae5baf7ce3")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 345)
@@ -8271,7 +8271,7 @@
 			(net 10 "ROW5")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "b9d35357-7f67-48c2-a409-503b8fbe41b5")
+			(uuid "6d3f6093-20d1-4d6e-af27-3ba9bc18b7ea")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -8345,7 +8345,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/367d7e87-b60a-4241-898b-96fb06c762c2")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -8658,7 +8658,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "8bc1ab56-4045-4a10-8cf6-5bb7a0865a89")
+			(uuid "eaa79dc1-44f7-4497-9f9d-f36fc2c6cfe0")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -8676,7 +8676,7 @@
 			(net 92 "Net-(SKD13-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "c773f561-bbb3-44cf-adcf-f58edadbe9d7")
+			(uuid "8d8e505b-c6da-466d-98f7-32fd2f6cee69")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -8696,7 +8696,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "96f2b3f8-6428-4857-9a37-e1881a67f278")
+			(uuid "a8f57040-8bb5-47a2-a2df-afcad2b52a9e")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -8714,7 +8714,7 @@
 			(net 93 "Net-(SKD14-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "fca2d84f-4908-4839-b038-70036c3f9924")
+			(uuid "8c2faa75-14ab-4e4b-b974-e7dea9b9aaf4")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -8837,7 +8837,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/b166316a-b5fc-4f3c-bd47-f67969800931")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -9175,7 +9175,7 @@
 			(net 10 "ROW5")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "584a2ee3-9f8f-4d78-9f03-df70a4983eec")
+			(uuid "19a222b3-b1cf-4d3f-98c3-a139d75ecaae")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -9195,7 +9195,7 @@
 			(net 82 "Net-(D27-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "c351e3c7-74b0-43d3-ac26-76a2861e513b")
+			(uuid "e71f20c3-b2c3-46ef-83fc-8c25feb7c466")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -9269,7 +9269,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/83b26d80-c2b6-420d-9e9f-75bcd55f84b7")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -9582,7 +9582,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "8ae31fcf-58d0-4234-bd58-b193885c4245")
+			(uuid "c34c7cfa-4851-4fbc-9fac-4a75834402a9")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -9600,7 +9600,7 @@
 			(net 96 "Net-(SKD17-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "bbed59e6-bd55-45ab-8708-8d41c5eab2cf")
+			(uuid "edd497db-90f9-4187-8f46-5cb52ffbd8f4")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -9620,7 +9620,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "288393d7-9ed9-4782-bb3e-c7ba29294dd3")
+			(uuid "500360ca-1abe-417f-9490-e9211a209cd9")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -9638,7 +9638,7 @@
 			(net 97 "Net-(SKD18-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "9ee5d6f4-6f6b-4754-9f1b-0d04c7d06633")
+			(uuid "dd294051-a70d-40fa-887b-df71059839b7")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -9709,7 +9709,7 @@
 		(path "/56b86bc1-388b-4f45-b379-0057cab54fc3")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -10009,7 +10009,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "986feb07-7015-440b-ac8a-ba60de24b613")
+			(uuid "49661a6d-2a44-4620-9259-0ef725c764f2")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 180)
@@ -10027,7 +10027,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "22966c0d-8e08-45fc-b0d8-8d5b6df2e664")
+			(uuid "cae06bed-1c91-4848-9bea-7c5f76104cbc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -10150,7 +10150,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/944bb5c4-0d39-4438-99c0-1ec1b247c941")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.959999)
 			(end -1.685 -0.96)
@@ -10488,7 +10488,7 @@
 			(net 10 "ROW5")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "33a19b9b-1165-4fe7-b3e5-17156d128e2d")
+			(uuid "3f5d16a8-06a5-420d-852b-fcc9364310bb")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 150)
@@ -10508,7 +10508,7 @@
 			(net 84 "Net-(D29-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "d88a7ec4-97d7-4483-8e67-d2a1ee18ed34")
+			(uuid "c478790b-9701-4091-9bf3-18e9ace43bf8")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -10582,7 +10582,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/d1080834-711f-4cd5-8b58-02e37b97cbb2")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -10895,7 +10895,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "f88ee246-77be-459d-a196-b73245562764")
+			(uuid "85d1a851-bcd6-4587-b0da-54b04670d9ae")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -10913,7 +10913,7 @@
 			(net 109 "Net-(SKD13-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "79dd92af-5950-4618-a22f-bf3ea02ed2c9")
+			(uuid "0184e99a-da40-4c42-a55b-b197f9d023e0")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -10933,7 +10933,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "252a99ad-11d9-4efc-aa69-2c310972177d")
+			(uuid "3dabc9ad-2227-484b-b478-eac7d1675e45")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -10951,7 +10951,7 @@
 			(net 92 "Net-(SKD13-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "8fc3c6d9-5159-4054-97ea-ce8bb00f9377")
+			(uuid "4e01659d-2258-4dbe-bcb6-8571a300f56d")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -11025,7 +11025,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/bc9544cf-de9c-465d-b8ee-34ed7e05ec67")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -11338,7 +11338,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "1421cdaa-01a4-43d6-8126-eb614cee9102")
+			(uuid "b757148d-6a8f-480d-9f83-6f5eb994b9df")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -11356,7 +11356,7 @@
 			(net 85 "Net-(SKD1-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "a93b2b73-a91b-4d4f-bbbd-b5e228428971")
+			(uuid "a88add8c-4b5e-4361-a06f-bc69cf4426ce")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -11376,7 +11376,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "c3687b17-d360-49fb-9db5-e4e214470e15")
+			(uuid "8be70022-afc8-45ef-948a-f1c0db6dbabf")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -11394,7 +11394,7 @@
 			(net 86 "Net-(SKD2-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "37d387b5-de31-4a5b-ab05-ce2ce0c20275")
+			(uuid "be4b3456-9133-41aa-94ab-b228c8ab000a")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -11517,7 +11517,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/28af9478-fafc-47ce-8085-13553b8dbf5b")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -11855,7 +11855,7 @@
 			(net 69 "Net-(D14-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "1457aa3e-ceb9-4516-8327-4f97aa3f9951")
+			(uuid "0e95bdfe-0f8f-4bef-8785-d6c67008c7c8")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -11875,7 +11875,7 @@
 			(net 8 "ROW3")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "f1b5ff98-8be8-46cd-b51c-f1a3449b57f3")
+			(uuid "5a436e3a-9f63-4138-90f7-74a4d3243964")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -11971,7 +11971,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/5dbae30a-1fb1-4088-8293-5b9cb83e7f6b")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -13279,7 +13279,7 @@
 			(net 56 "Net-(D1-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "706698b4-8936-4b05-ae6c-e9195c671217")
+			(uuid "6cf9d928-e5a3-429e-83f9-ee72e0bc9038")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -13299,7 +13299,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0877bf99-0ec6-49d2-9583-e185afb43bfc")
+			(uuid "97911c23-0fd9-4cf0-bc8c-4fbb6de69127")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -13395,7 +13395,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/6956e317-4509-4051-a624-6a1868d8f1af")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -14703,7 +14703,7 @@
 			(net 69 "Net-(D14-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4af7fde0-2969-4618-a2d8-7ed08d3e1dbb")
+			(uuid "dceff898-a5c5-47af-8120-405d2aa208bf")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -14723,7 +14723,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7111f197-cac3-4dff-b0a2-2139067864ba")
+			(uuid "e4ce88b9-4652-4078-9028-b3696b7c9332")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -14819,7 +14819,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/304aae76-ec0b-4a19-9469-c21b8b82ab6f")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -16127,7 +16127,7 @@
 			(net 73 "Net-(D18-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3900a280-4653-4537-9d19-fb9171862594")
+			(uuid "bcde063d-ed2e-4cfb-81ed-24572b54c0fe")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -16147,7 +16147,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3f81acfd-a39f-4863-b82c-b1c8657cb00c")
+			(uuid "c88fb54b-d8b3-429b-919b-c03558e13fb9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -16243,7 +16243,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/80884a64-dbbf-4f63-a3ec-b1192c8b57b3")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -17551,7 +17551,7 @@
 			(net 70 "Net-(D15-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2340e7af-dca1-41e8-a1a5-12993ca2d5a3")
+			(uuid "3b00c545-7b43-41be-bcf5-cb7e7d1804d2")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -17571,7 +17571,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "5763b136-0df4-4e03-8f07-029809bbeb69")
+			(uuid "6d799cba-93e2-4bfe-b751-794fbec0d7b9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -17667,7 +17667,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/ae0ec61c-2074-4517-b547-3116b6f54238")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 -7.6)
 			(end -7.6 -7.6)
@@ -18110,7 +18110,7 @@
 		)
 		(fp_line
 			(start 2.546 -7.504)
-			(end 2.545999 -7.282)
+			(end 2.545998 -7.282)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18119,7 +18119,7 @@
 			(uuid "be0df32f-1ff3-4f9f-aba6-bb5d8fad9ab8")
 		)
 		(fp_line
-			(start 2.545999 -7.282)
+			(start 2.545998 -7.282)
 			(end 2.633 -6.844)
 			(stroke
 				(width 0.12)
@@ -18975,7 +18975,7 @@
 			(net 83 "Net-(D28-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9c63ad37-cb81-45b2-8469-f1b12aaf906f")
+			(uuid "a74bc0c5-0564-41e1-9f9a-6f97584041c1")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8 345)
@@ -18995,7 +18995,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "719c9e12-f0f5-4f79-811b-1b4cfb692122")
+			(uuid "9eb5cbc5-3144-4b41-9437-66daf39041f4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -19091,7 +19091,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/9554af66-3d9f-4094-91e3-d94e5d0917af")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -20399,7 +20399,7 @@
 			(net 76 "Net-(D21-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4e6b13da-09b6-49af-8bfa-a2a93411d300")
+			(uuid "82ae29ec-3a55-41a6-adbd-c24561489d97")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -20419,7 +20419,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7b2cce69-d534-45f3-a931-4c7e4063d4da")
+			(uuid "ca7bcfc9-7deb-4002-9ec2-d3bd24c7616b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -20493,7 +20493,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/c63da8d4-1aee-4d1f-bca6-6a98ef19bd45")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -20806,7 +20806,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "368ac93d-6219-46d7-b140-193fe1242758")
+			(uuid "0357e17e-81d1-4164-9c87-beccf199490c")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -20824,7 +20824,7 @@
 			(net 114 "Net-(SKD19-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "46730819-fd0d-4f63-9560-b9d26e03dc00")
+			(uuid "1665db7b-0522-458b-b780-2a1dbb9bee02")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -20844,7 +20844,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "6c294e27-31c8-4d42-afc6-621de35f06ac")
+			(uuid "240664ae-2b93-44fb-a640-e494102ae7cd")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -20862,7 +20862,7 @@
 			(net 98 "Net-(SKD19-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "2c69e9a0-4155-4b51-9abb-47bab6031713")
+			(uuid "7af18fcd-d162-4ce3-866c-ac83e6a568b6")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -20985,7 +20985,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/b91a2dc2-1c37-41c2-8da6-3d43f4da298f")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -21323,7 +21323,7 @@
 			(net 6 "ROW1")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "aff73e94-9296-40be-ae41-44527b5d1336")
+			(uuid "51bbcb9e-41d9-44c8-8b8b-855e6a3a40a8")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -21343,7 +21343,7 @@
 			(net 56 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "b8048559-66c5-419e-a0be-b9ed0a873634")
+			(uuid "bfbf6ee6-858e-4dc5-86c2-82660f17d211")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -21414,7 +21414,7 @@
 		(path "/16c09abc-e122-4d0d-8a92-f6d31bcf5eac")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -21714,7 +21714,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "cce82cd6-e733-4d9b-9445-6ec56de01aeb")
+			(uuid "9a74ff33-085f-469d-b2d2-3a845abd9d4d")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
@@ -21732,7 +21732,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "X_IN")
 			(pintype "passive")
-			(uuid "8e8763cb-8a93-4d2f-b7d6-478eb313ab4f")
+			(uuid "91398e32-33b0-441a-8ffa-41c81fd865d5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -21828,7 +21828,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/7502ecd1-7ea5-4bc0-a38c-6a1e4758514e")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -23136,7 +23136,7 @@
 			(net 79 "Net-(D24-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cb2417ae-8d71-4a60-bd47-6f07d08fec56")
+			(uuid "aae3421d-384c-4036-9931-0ec5ff69598b")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -23156,7 +23156,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "fc585f0b-5c7b-4581-8742-ccc62e97f5de")
+			(uuid "5f11e98f-70fe-4481-8842-4f51602fc503")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -23230,7 +23230,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/545161b2-6eb0-4199-a9a9-90a51f6bb6a1")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -23543,7 +23543,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "de6792fb-3618-453f-a9b1-fbf1cde042da")
+			(uuid "e5a230f5-b9c1-4941-b153-9d808b210230")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -23561,7 +23561,7 @@
 			(net 91 "Net-(SKD10-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "d428f0dd-24f4-4c3d-ab38-162ec866ea3f")
+			(uuid "4f9fe8e2-7049-4a62-9c00-403f01e82b93")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -23581,7 +23581,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "1d3631c5-dbbb-4d15-83e0-929169bce795")
+			(uuid "93e3442e-0940-48f4-9496-a79734b99e0f")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -23599,7 +23599,7 @@
 			(net 113 "Net-(SKD11-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "a7cec8c5-a031-460e-829c-462b3379af79")
+			(uuid "21171cd4-d1bf-4245-b50c-82204e29cb2b")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -23722,7 +23722,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/5bc96f16-bb40-4a20-a9df-d28db81dfd7f")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -24060,7 +24060,7 @@
 			(net 81 "Net-(D26-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "52dd474b-bba7-43ce-bb88-14c346ac86f4")
+			(uuid "466d44e2-b7f0-4c13-8587-33e7be46409f")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -24080,7 +24080,7 @@
 			(net 10 "ROW5")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "2eac5f6a-c4d6-4610-aec9-35301f44722f")
+			(uuid "a235401f-c3c9-4a13-8231-65e0a6b78395")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -24150,7 +24150,7 @@
 		(path "/cc9b1e5c-52df-4dad-9cae-dd3b67526556")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 3 1.7)
 			(end 3 1.1)
@@ -24420,7 +24420,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/00f83fcb-8e29-4fb1-8a92-b057a9161ca3")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -25728,7 +25728,7 @@
 			(net 61 "Net-(D6-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b35ec5b3-df5a-433d-9afc-4dc4c137d2ee")
+			(uuid "7bf4cc6b-3141-4349-ac2e-7f396fe79324")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -25748,7 +25748,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e3513cb4-afce-46a3-9731-c90d253e8092")
+			(uuid "70fbfb05-c38b-4619-a772-4f0955c0c10e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -25844,7 +25844,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/7298c787-f78c-4685-adfb-84f604bb0d59")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -27152,7 +27152,7 @@
 			(net 74 "Net-(D19-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "63428188-5410-48ea-85d0-56c76f1163e0")
+			(uuid "548b01bc-65ee-49df-b18e-a96a7a296451")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -27172,7 +27172,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b2e829f5-b1f6-4d16-a836-dea25aaba076")
+			(uuid "a3794730-bf7f-4176-8b15-219f08efbccb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -27268,7 +27268,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/0cbeddfe-50e0-4aa2-a338-b18765216625")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -28576,7 +28576,7 @@
 			(net 57 "Net-(D2-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c0c29a6a-b6c1-4c96-8e47-d3351897dc32")
+			(uuid "e6027d15-9932-42cb-a91a-f8ee2c2d9c2e")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -28596,7 +28596,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c7d35f82-701f-42cc-92c4-bfe90855a641")
+			(uuid "a158c9de-9d0f-4b13-896f-5137575525e7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -28692,7 +28692,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/454676fd-d733-4173-9fc8-f322af5b60a0")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -30000,7 +30000,7 @@
 			(net 82 "Net-(D27-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "76787dff-ccd7-46cb-b63d-6acbac056235")
+			(uuid "a959d7b2-324e-49c9-b928-f8bf3ca1b1fd")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -30020,7 +30020,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "22ce6bd1-941d-4c9b-abc8-9e14cbe77d73")
+			(uuid "efb823b5-1aa9-46d9-8cd7-b2d4c7298fe4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -30091,7 +30091,7 @@
 		(path "/668d6dca-694d-4459-8416-f27b833ee9e9/d019982a-cf74-473f-a4eb-f1fdd8af23d7")
 		(sheetname "/power_comms/")
 		(sheetfile "power_comms.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -30391,7 +30391,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "73e877ee-eecd-4b51-9de7-7551b0dd8b63")
+			(uuid "03e8e074-637c-4f8b-ae82-e7c175003c9e")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 180)
@@ -30409,7 +30409,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "43a2867d-3e9c-4cf5-ae39-b9011f8e9c18")
+			(uuid "6486570f-dda5-4275-980a-5d7e5edc2eb3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -30479,7 +30479,7 @@
 		(path "/2ab52bdc-5ec6-479f-9b5e-1410ae2cc42b")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -3 -1.8)
 			(end -3 -1.1)
@@ -30727,7 +30727,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/168ca496-50c1-442b-aaf7-5a88cec3774f")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -31040,7 +31040,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "037b820e-9808-4085-945a-550b77bd6c37")
+			(uuid "45bbd8ae-bbaa-45a6-9750-19b662d09719")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -31058,7 +31058,7 @@
 			(net 109 "Net-(SKD13-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "2b36ef60-8ad1-451e-8290-39d711f8410e")
+			(uuid "3d03332c-79d3-40bd-8137-ac1843381367")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -31078,7 +31078,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "987f8b9a-f383-4ffd-aa9a-f0d1b3a8cb8e")
+			(uuid "cd7255b0-37c5-43aa-bc2d-5cd96b07038f")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -31096,7 +31096,7 @@
 			(net 111 "Net-(SKD7-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "dd53d448-6891-4e1b-b40a-f25ac81273a5")
+			(uuid "fc7481ee-9adb-4af8-81fb-0f8b783488fa")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -31170,7 +31170,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/4f5a633b-172f-42cb-8112-bdf1a93cf4e1")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -31483,7 +31483,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "e05c5c61-ffd3-4014-bbe3-3ee0979e812f")
+			(uuid "151d4a78-0424-49f1-babe-8ca1975e9b39")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -31501,7 +31501,7 @@
 			(net 104 "Net-(SKD26-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "751c7d05-2099-4a27-8771-bff94f0b3b3d")
+			(uuid "ca2ed287-a80f-4385-98aa-051af53f08d1")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -31521,7 +31521,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "7ad992d1-ccf7-4faa-a09d-0ad0b9037184")
+			(uuid "88a27ff8-ee8b-45ae-bdde-04853913894e")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -31539,7 +31539,7 @@
 			(net 105 "Net-(SKD27-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "2da5a806-77ab-4a28-a408-019aa263fd35")
+			(uuid "717313d2-b3d6-45df-8180-f2e1a2ac301f")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -31613,7 +31613,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/1edf8ec5-8096-48b7-bb1c-6d6457762337")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -31926,7 +31926,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "fbd26fa7-b58c-45a9-99eb-2609bd6a83bb")
+			(uuid "b0cdbcf0-2419-42d3-ba83-4a1b8717364e")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -31944,7 +31944,7 @@
 			(net 95 "Net-(SKD16-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "9c12ba1b-ec9a-4f9b-b471-f9ffe9076fe8")
+			(uuid "47d405ac-ba8d-4dd5-b20e-750ef7d3d372")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -31964,7 +31964,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bdd4b7e6-ad36-4090-ae99-4c26f8094894")
+			(uuid "9a240ff3-515e-4d25-9eaf-89ff01a835fc")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -31982,7 +31982,7 @@
 			(net 96 "Net-(SKD17-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "18456b59-cb86-405b-bf64-1c239b9cf28b")
+			(uuid "85191db5-e3c6-405f-9694-6bac3ea4e1e5")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -32053,7 +32053,7 @@
 		(path "/dc33d947-fff4-4bfe-ad60-f7e430204c9c")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -32353,7 +32353,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "d216c98c-ada6-4de0-b869-246a2453f17d")
+			(uuid "df227840-1f0a-47a4-a9a0-332f5488ccc9")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 180)
@@ -32371,7 +32371,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "ec1d2014-0545-44a4-b43b-5ba7448009af")
+			(uuid "a9b8c4a3-5659-4bbe-893a-1c1c9e4ea429")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -32442,7 +32442,7 @@
 		(path "/706ef0fe-66f1-4400-b793-6f6fd1eeb735")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -32742,7 +32742,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "e359dd45-9afd-4ab0-a2a5-9018d0d24f00")
+			(uuid "238fa13f-9e90-419b-b07e-11d400d5c48a")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
@@ -32760,7 +32760,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "7be6a424-2baa-4d0b-963b-49a40244db30")
+			(uuid "ef9acd3a-b07c-48e9-8573-a5d9cbbcd24e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -33306,7 +33306,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/d8022d42-3bd3-4bd3-81ef-3878f4d9d098")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -33644,7 +33644,7 @@
 			(net 57 "Net-(D2-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "6b3f3216-7b4b-4f24-846c-bd10054e02da")
+			(uuid "0d224567-286f-48e9-b7cf-5f87a05c8cdd")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -33664,7 +33664,7 @@
 			(net 6 "ROW1")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "7160a4d5-eb0f-48c8-a862-93db61a52a6f")
+			(uuid "04ec0b4e-00ed-43c7-8575-9b1471540e6e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -33760,7 +33760,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/cd5b4e6f-d0f3-432e-ac3b-8865957a2996")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -35068,7 +35068,7 @@
 			(net 59 "Net-(D4-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f389e3d6-f408-4916-91bb-cf1a28a55349")
+			(uuid "d404248d-f4a0-4f73-bd89-95fd0e5d78c1")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -35088,7 +35088,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ecf5282f-d995-4027-88df-68f10a2734a5")
+			(uuid "76a7c0a1-631a-430b-9b3e-f39c1401f538")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -35162,7 +35162,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/2567977d-550d-4ff9-8460-e31d0b5878a2")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -35475,7 +35475,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "05ef995d-7834-442c-a761-1091473ce276")
+			(uuid "c872a3ce-725c-47c6-9b57-0f859cafd4ed")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75 330)
@@ -35493,7 +35493,7 @@
 			(net 106 "Net-(SKD28-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "b348b19b-8fed-42ab-b08b-2163f4e88ee3")
+			(uuid "e7a9875c-2bac-44fb-986e-a8dfaf0ac7e0")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75 330)
@@ -35513,7 +35513,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "c1d40ee8-8dc4-415b-8a18-bb32ba9669cd")
+			(uuid "a594cc38-21ce-48c5-8775-78ddaae3640d")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75 330)
@@ -35531,7 +35531,7 @@
 			(net 107 "unconnected-(SKD29-DOUT-Pad4)")
 			(pinfunction "DOUT")
 			(pintype "output+no_connect")
-			(uuid "1f5e8918-c9a5-442d-973a-4e88dee9e5e7")
+			(uuid "5e183ed4-95b9-4ce6-977d-65806886bb75")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -35605,7 +35605,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/048bfd28-8fc4-4e3d-9b25-99bc76299145")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -35918,7 +35918,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "6204cb33-4138-460d-ac50-2b581d3ac80d")
+			(uuid "3583ec0c-c81a-4986-b0f1-9bfe99ef7a78")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -35936,7 +35936,7 @@
 			(net 101 "Net-(SKD22-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "69622967-65a8-41a1-baa2-ebf760397012")
+			(uuid "605b4bec-a275-4aac-b237-cd8d5e9f6fa5")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -35956,7 +35956,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "d9313b32-48e4-4d7b-a19c-4620caa58ef8")
+			(uuid "cd9f4037-9fd0-4cf9-a205-fda1fd5e0488")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -35974,7 +35974,7 @@
 			(net 102 "Net-(SKD23-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "779508ca-5b6f-48b2-93fd-3d7d68ec5ba6")
+			(uuid "a1766f92-c663-4c0a-8789-b9113e5902a9")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -36045,7 +36045,7 @@
 		(path "/15e70df2-915d-4a6c-81bd-0ca1acc63c7a")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.11 -1.11)
 			(end 0 -1.11)
@@ -37345,7 +37345,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/24dcd18a-b683-4741-ba17-50ed25a43d8f")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -37683,7 +37683,7 @@
 			(net 59 "Net-(D4-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "9d86b247-2d68-40ab-80a9-b3d130b4579e")
+			(uuid "8bbe9fc3-d967-4728-b598-a21a6f77beb7")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -37703,7 +37703,7 @@
 			(net 6 "ROW1")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "72ee3171-fd91-480f-8b04-43703bd3eed7")
+			(uuid "4fc7c075-d380-48fa-a017-11905ac43ffa")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -37826,7 +37826,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/4000e962-1f8b-40f8-92b4-4a4f84727d3e")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -38164,7 +38164,7 @@
 			(net 75 "Net-(D20-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "3276e0fd-7b34-42c4-9a34-77afef5afc0e")
+			(uuid "70bde231-6bb5-4124-82d7-9ba79f82c30c")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -38184,7 +38184,7 @@
 			(net 9 "ROW4")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "74801cad-d375-4036-a571-08cc99486fd8")
+			(uuid "27983031-9873-4c56-8e6d-7e296c2a61f3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -38257,7 +38257,7 @@
 		(path "/668d6dca-694d-4459-8416-f27b833ee9e9/db78330a-c989-42ae-b39e-590774bbf6d0")
 		(sheetname "/power_comms/")
 		(sheetfile "power_comms.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 6.15 2.1872)
 			(end -6.15 2.1872)
@@ -38455,7 +38455,7 @@
 			(remove_unused_layers no)
 			(net 14 "RX")
 			(pintype "passive")
-			(uuid "cbca1431-bec3-442c-98c8-3e8618cabca2")
+			(uuid "a96d7d5a-f633-4e1e-a9b0-682a7dbed9a8")
 		)
 		(pad "R2" thru_hole oval
 			(at 0.25 -3.0128 270)
@@ -38475,7 +38475,7 @@
 			(remove_unused_layers no)
 			(net 13 "TX")
 			(pintype "passive")
-			(uuid "fc7b1ee1-9720-4f41-9bd5-9cd3f04d3a4d")
+			(uuid "3daabf0d-df25-4940-8e57-bae4b75de0a8")
 		)
 		(pad "S" thru_hole oval
 			(at -2.75 -3.0128 270)
@@ -38495,7 +38495,7 @@
 			(remove_unused_layers no)
 			(net 5 "VBUS")
 			(pintype "passive")
-			(uuid "bb6c232c-9f86-460a-ac7f-65026626176e")
+			(uuid "555dd986-8780-4344-bd5e-20acd7f739c9")
 		)
 		(pad "T" thru_hole oval
 			(at 5.75 -1.1872 270)
@@ -38515,7 +38515,7 @@
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "4aa018f8-2fec-42eb-a285-71533a8b5d51")
+			(uuid "c3226b5b-1f4e-41d5-87f7-9ad9f59111fa")
 		)
 		(embedded_fonts no)
 	)
@@ -38600,7 +38600,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/573a2b52-2696-4c9e-b2eb-f13e49a46b3e")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -39908,7 +39908,7 @@
 			(net 68 "Net-(D13-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ac2bdbd0-4927-4194-9f46-31c782c8d6e1")
+			(uuid "b55594e2-9427-48c7-b158-5485e369ec6f")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -39928,7 +39928,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0236c972-88ba-46eb-8d75-0f2b9b1e9c02")
+			(uuid "eb8c33b9-dea2-408b-be22-7b5629101d57")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -40002,7 +40002,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/6b4e4db9-dd35-4953-8ae6-399da85d08cf")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -40315,7 +40315,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "0469a84b-395d-49ba-8301-f04b8760b927")
+			(uuid "0f02a98f-9a0f-441f-a132-b6afda957c9f")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -40333,7 +40333,7 @@
 			(net 112 "Net-(SKD8-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "a0b5d7d9-cd01-4361-86d2-ef1cb0ad8622")
+			(uuid "3922bf28-ce65-42ed-a2ad-25838dd88a5d")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -40353,7 +40353,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "9f5c296b-9d7c-49b5-b05e-e5bece6d9a14")
+			(uuid "597b878b-d183-439f-8632-3f33eafaceea")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -40371,7 +40371,7 @@
 			(net 90 "Net-(SKD10-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "87a7256c-78de-4ecc-abdc-b2bbe964aee6")
+			(uuid "a76eea19-ea82-4e9d-8091-a58535f6039d")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -40494,7 +40494,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/1c919b60-ce40-4118-b5fe-033f6c94af34")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -40832,7 +40832,7 @@
 			(net 77 "Net-(D22-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "39f46289-834e-49d4-8e2e-8a1c601c74d0")
+			(uuid "3982ab67-b2d6-466e-a8c0-14778a1fe3a9")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -40852,7 +40852,7 @@
 			(net 9 "ROW4")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "b2f64300-d372-4a29-953e-8ffc9928f0a0")
+			(uuid "a32bfadc-9557-4a15-8301-2d775449aef3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -40926,7 +40926,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/006ece50-0ec6-4f71-bef2-f4c7cb89683e")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -41239,7 +41239,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "f150a4c4-ad36-4858-b285-58999ab7b87b")
+			(uuid "3293b4b3-111d-4883-8e5e-892a97c589b7")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -41257,7 +41257,7 @@
 			(net 94 "Net-(SKD15-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "7b3f35b9-b235-4762-a5c9-8f7f9af3b047")
+			(uuid "1151efe7-8909-4b4f-b32c-917479ad350c")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -41277,7 +41277,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "f22df797-19a8-441f-8d9d-1f812829d400")
+			(uuid "66f835b8-1ed3-460c-8a85-bbe58cb7b0af")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -41295,7 +41295,7 @@
 			(net 95 "Net-(SKD16-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "26b8f550-16c6-4d91-b8aa-adbc099c885b")
+			(uuid "c8cfb010-9a05-47d9-a359-dfbb4c63d3b0")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -41391,7 +41391,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/1607f51c-1013-4483-b375-3d616da6d8fe")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -42699,7 +42699,7 @@
 			(net 77 "Net-(D22-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6cc7945c-10ea-48dc-913d-2a2ed9eb2cac")
+			(uuid "f04de773-d492-4971-9054-bfa429977444")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -42719,7 +42719,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "09e45630-685b-4ce8-93f7-803bee6de4c9")
+			(uuid "6921297e-203e-4afe-8cb8-a1731ba15c35")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -42815,7 +42815,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/c449ade7-1925-441d-91f9-938323287aa6")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -44123,7 +44123,7 @@
 			(net 66 "Net-(D11-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "bd9bfb0b-bb7e-444f-b161-317ae68281ed")
+			(uuid "bf13e91f-ba6b-40c5-bff7-accfe3608efb")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -44143,7 +44143,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e1c5a371-788d-40a1-94ab-057e547fecfa")
+			(uuid "4f0e6dd4-48c6-4c6b-bffc-845e9fcf3718")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -44429,7 +44429,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/ba0ad2a0-2aee-4cbe-bfe9-ce587d94b224")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -44767,7 +44767,7 @@
 			(net 9 "ROW4")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "b663cbdc-b40b-4b41-8ab3-528db009a7c6")
+			(uuid "7b5899c9-f047-40d6-82de-6ef84394fc1e")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -44787,7 +44787,7 @@
 			(net 74 "Net-(D19-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "5413bd90-cfc8-45ea-8deb-e1510f66c7cc")
+			(uuid "c84d1744-270f-49b7-b1e2-635f5f366eee")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -44883,7 +44883,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/8e0ffc89-5e64-4129-b835-a7a06ced15a3")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -46191,7 +46191,7 @@
 			(net 67 "Net-(D12-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b31a42d2-bedd-481b-9d82-537f62fcdd49")
+			(uuid "9961a597-0c32-4851-be14-7946a2d57c26")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -46211,7 +46211,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c221817c-c14a-45d7-a67e-806aa3514057")
+			(uuid "bf67ccbb-48cf-4439-b382-6b3876f8ec1c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -46282,7 +46282,7 @@
 		(path "/2a487ca2-633e-45b8-a26e-208f42650f68")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -46582,7 +46582,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "40ce900a-2390-47f7-a200-152971c47190")
+			(uuid "015332c3-95c6-4ed7-9885-de21a0f7979a")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
@@ -46600,7 +46600,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "464ba919-3083-44b8-b2bb-a56f24abc028")
+			(uuid "f5727918-a4a4-4230-bbc3-2e37b9a60b11")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -46671,7 +46671,7 @@
 		(path "/68209210-b232-48e3-a013-ec54b250344e")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -46971,7 +46971,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "2fbd723d-58b1-4405-ba83-738b8cb73136")
+			(uuid "bd0f580b-d3ba-4afd-9cd4-faefccff36ca")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 90)
@@ -46989,7 +46989,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "01e00e95-5e01-435f-b747-8a948893cea5")
+			(uuid "d0ef3592-eb1f-4a5b-8ccf-83f7475be9bb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -47112,7 +47112,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/e59e5026-bd15-41d1-83f7-287aed9edb96")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -47450,7 +47450,7 @@
 			(net 79 "Net-(D24-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "d0c6784d-4ec8-4641-a760-7417b2ae23f0")
+			(uuid "a43d0e1a-9370-4a51-9002-647674dc9a2b")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -47470,7 +47470,7 @@
 			(net 9 "ROW4")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "40aaeb7b-705f-4109-96cd-bdf681fe7729")
+			(uuid "09aa40ac-6a7e-464d-a32c-47d9598b6b20")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -47566,7 +47566,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/ea6de9ef-1706-4ad7-8f65-eac9b650a841")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -48874,7 +48874,7 @@
 			(net 58 "Net-(D3-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9732de4e-a0ed-499b-b2ec-5d9c32085751")
+			(uuid "04ce7dc2-303d-427f-80c4-71fceba121e2")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -48894,7 +48894,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0cc03612-c9db-4712-bbd2-b86ad582cdd1")
+			(uuid "32409818-bb07-4658-9f04-66659e7c99ce")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -48965,7 +48965,7 @@
 		(path "/3104f150-8b4e-4873-8599-bc2200f26529")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -49317,7 +49317,7 @@
 			(roundrect_rratio 0.243902)
 			(net 3 "Net-(C2-Pad2)")
 			(pintype "passive")
-			(uuid "60faca1b-eca0-4dc5-8efc-bd641f2719f6")
+			(uuid "7d7303fa-878d-4f6a-b128-3d31143bc00e")
 		)
 		(pad "2" smd roundrect
 			(at 0.9125 0 90)
@@ -49335,7 +49335,7 @@
 			(roundrect_rratio 0.243902)
 			(net 19 "X_OUT")
 			(pintype "passive")
-			(uuid "1ad4c30e-0264-46d7-96f1-af037f299c4f")
+			(uuid "ca3b7739-b3c9-483e-bb39-f8a7462a3519")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -49406,7 +49406,7 @@
 		(path "/123999e3-47e4-466d-83a9-a23197b6ba96")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -49758,7 +49758,7 @@
 			(roundrect_rratio 0.243902)
 			(net 21 "Net-(USB1-CC1)")
 			(pintype "passive")
-			(uuid "200f6c6d-7a75-4f69-89ea-5e4ed1e1cc37")
+			(uuid "6ce83f3f-a5d7-4deb-aa95-c0682c103adc")
 		)
 		(pad "2" smd roundrect
 			(at 0.9125 0 180)
@@ -49776,7 +49776,7 @@
 			(roundrect_rratio 0.243902)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "ccd3c0d7-2e9f-48ff-968e-3854f49359f9")
+			(uuid "f709cc98-7b7d-475a-991f-ebf540754fe2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -49899,7 +49899,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/aad69eea-e361-4dad-9cec-e1caaff11287")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -50237,7 +50237,7 @@
 			(net 7 "ROW2")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "646d7ee7-fec5-4478-81b5-1835e2a3abbf")
+			(uuid "15dfeec7-5910-4012-bee0-44267289e4f8")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -50257,7 +50257,7 @@
 			(net 66 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "45ed5133-f23f-4b69-b7da-b527920b2b7a")
+			(uuid "e768fa23-374b-409f-a821-3006aa787b6e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -50353,7 +50353,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/f39b3289-3b21-4ed7-a637-d116a2938ae2")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -51661,7 +51661,7 @@
 			(net 75 "Net-(D20-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "085af609-57c3-4562-8984-168f4d90c770")
+			(uuid "7320b76d-2613-4931-8ef1-5b43f666d1b2")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -51681,7 +51681,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "25ccc2a8-5950-4942-85ac-f24d8ebcdc46")
+			(uuid "4812b01f-e217-4696-8571-f654e60c20fc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -51804,7 +51804,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/455db6dc-f067-44bd-ae0e-35b3e6fe3316")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -52142,7 +52142,7 @@
 			(net 8 "ROW3")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "fb97fb84-2d13-456a-bfc7-56a8ca8f83e4")
+			(uuid "4f951d9c-1618-4717-b859-595ca271c976")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -52162,7 +52162,7 @@
 			(net 72 "Net-(D17-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ab3070c6-5720-44d1-8468-64cf64baa7f7")
+			(uuid "e52348de-e5d6-404c-98c6-4c49056ca4cd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -52236,7 +52236,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/9e55a50e-9876-4e4a-a4d3-1e67c62cd708")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -52549,7 +52549,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "f81c37ab-aaa5-4342-ad28-b144c1d352c7")
+			(uuid "c8e3c81f-f143-45db-b044-9fe26bc214bd")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -52567,7 +52567,7 @@
 			(net 86 "Net-(SKD2-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "37c49908-2ba6-4ec7-b0ab-416f69a0e9e7")
+			(uuid "0c18e117-c59b-445c-b35b-affa9ab5d735")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -52587,7 +52587,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "a4574e1e-8216-4b2a-b0d5-70bb996a990a")
+			(uuid "89ca4468-872f-4541-814b-21bbd7db4d13")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -52605,7 +52605,7 @@
 			(net 87 "Net-(SKD3-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "f37d2177-e71a-4e5e-9c8c-19157d4fc656")
+			(uuid "5d947f1b-96e1-44b1-bce7-e763aa35be00")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -52701,7 +52701,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/acf3fdf6-b62e-4389-82ae-31bbfebb67f7")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -54009,7 +54009,7 @@
 			(net 64 "Net-(D9-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8e0af733-e569-4056-a5ef-8d5da115c3a7")
+			(uuid "6a2c9c6a-4316-41ee-a81e-eb50f5314a8d")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -54029,7 +54029,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "504b65be-d1ca-4913-ad3b-d1c033a9da37")
+			(uuid "b125a49f-56cf-4e59-9741-8f32f958bf64")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -54152,7 +54152,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/7321520b-31fe-4aa0-80b9-b8780035d6e8")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -54490,7 +54490,7 @@
 			(net 6 "ROW1")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "1b238da8-941d-4c0d-9a27-4c4d1413794c")
+			(uuid "161fd80b-3dab-4b35-9edf-49fc1fe495ce")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -54510,7 +54510,7 @@
 			(net 58 "Net-(D3-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "9b0229c6-58ce-4818-8039-ced3651c3329")
+			(uuid "6bbb1433-3043-4de4-9d97-44dddd7f75c0")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -54633,7 +54633,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/70b611bc-808e-4081-8e04-8a63ce995a08")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -54971,7 +54971,7 @@
 			(net 65 "Net-(D10-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "b6ba94a3-dcd1-4a6c-ae7b-71a37c66211f")
+			(uuid "32e6a1db-accf-4ac0-9104-bab412e1f606")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -54991,7 +54991,7 @@
 			(net 7 "ROW2")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "54bb2225-c2a8-4093-8cc1-3346a753c82a")
+			(uuid "6cbf0976-9268-4b35-9f28-c84b2970fad9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -55062,7 +55062,7 @@
 		(path "/414348ce-152b-440d-9ee9-4b3529237d29")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -55362,7 +55362,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "89df6d2c-9c94-415e-9290-9e87be686c82")
+			(uuid "75f663a2-c809-4382-b922-f2a9b012b50f")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 180)
@@ -55380,7 +55380,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "8a916d1c-ff25-4196-b5b2-154089b847e6")
+			(uuid "6adcd44a-db17-483f-a9b6-79d5580c4759")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -55454,7 +55454,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/83ac95c1-dee0-48a4-af45-8cdec00575e4")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -55767,7 +55767,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "50f5f1f7-ec6c-4670-b91a-8a47d3c4e66e")
+			(uuid "0d74ad36-c910-4dd2-a978-d09b80fceb66")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -55785,7 +55785,7 @@
 			(net 11 "LED")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "bcd8d89e-64c2-419a-aee5-21624caab4c9")
+			(uuid "e7c57bf6-b59a-4e4d-886e-74294f898a8d")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -55805,7 +55805,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "36070379-4926-4393-887d-abe9c95d77e4")
+			(uuid "ff066dd0-da2a-4912-8f3a-5d4f732d956a")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -55823,7 +55823,7 @@
 			(net 85 "Net-(SKD1-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "9b63d542-64b9-4ce7-84ea-2d18123eeff1")
+			(uuid "20f4edcc-ba1e-4653-8695-d57bc2a348e1")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -55897,7 +55897,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/b0cfb79d-3c36-4604-a528-e704d7e893ab")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -56210,7 +56210,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "ae62541d-6633-4950-a85b-b996dbb29b08")
+			(uuid "06d1392f-5bb4-4d00-aaf2-38ef9456c0b9")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -56228,7 +56228,7 @@
 			(net 100 "Net-(SKD21-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "23b0ae7e-5ce1-4475-a2ff-d90e1ee734f4")
+			(uuid "d3a6ade7-2b90-42de-bb26-5c7060d7d3e8")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -56248,7 +56248,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "dbf7cfe3-4eab-4650-a85e-f3666a381aa8")
+			(uuid "c2fe1dda-240b-438c-9c9f-be6a8a1e03cc")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -56266,7 +56266,7 @@
 			(net 101 "Net-(SKD22-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "c1dffd70-b62a-4f58-aa50-36e13f3ddf3b")
+			(uuid "93df69a5-20bb-43b0-b629-bcef5c13f4ed")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -56337,7 +56337,7 @@
 		(path "/104f1cd7-2380-4178-a9d7-8c2ec78000a5")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -56689,7 +56689,7 @@
 			(roundrect_rratio 0.243902)
 			(net 18 "Net-(R1-Pad1)")
 			(pintype "passive")
-			(uuid "715c08e2-1bb1-482a-ac46-7ec9b26b8d5a")
+			(uuid "7ad04bc1-4de3-42bf-afea-e433eabca8c0")
 		)
 		(pad "2" smd roundrect
 			(at 0.9125 0 90)
@@ -56707,7 +56707,7 @@
 			(roundrect_rratio 0.243902)
 			(net 17 "Q_SS")
 			(pintype "passive")
-			(uuid "a0376998-5467-4a32-af40-1d5172b0bf02")
+			(uuid "e0d8c5a3-4e7f-40de-867c-81d6ec3b8230")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
@@ -56830,7 +56830,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/73152b57-278c-447f-99b8-ea8f4c524b32")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -57168,7 +57168,7 @@
 			(net 61 "Net-(D6-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "e794c43b-2f42-458d-a4dc-69db4259fb4c")
+			(uuid "9f2d94a1-b9d2-4ff3-8d94-3b194fab341d")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -57188,7 +57188,7 @@
 			(net 6 "ROW1")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "432a075f-5419-4714-9d28-3a73486b6aa5")
+			(uuid "c4647576-f238-4b8b-8eb2-5bc2e6f76a65")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -57311,7 +57311,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/544df925-a655-4a1f-ae7d-0924ec2dc996")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -57649,7 +57649,7 @@
 			(net 73 "Net-(D18-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "ccde4dc7-a091-493f-80f4-994ecde87a26")
+			(uuid "6d6e8dd9-cffa-4cd6-beb8-e7a89ece68ac")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -57669,7 +57669,7 @@
 			(net 8 "ROW3")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "dc536b96-de26-47bb-8ffc-0670c323f561")
+			(uuid "bd5c1124-6516-4530-85aa-65b1abe34619")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -57743,7 +57743,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/941d0201-4050-464e-8d5b-d531ad094aff")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -58056,7 +58056,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "ab09d79d-c898-4a6b-a1cb-752510e48e12")
+			(uuid "c1da6f1f-c0e5-4e96-8590-4a5c687ecfc2")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -58074,7 +58074,7 @@
 			(net 87 "Net-(SKD3-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "6b960c57-5590-48e4-afd3-065f4e9811ef")
+			(uuid "7a09e863-2cfe-46fb-8bbd-c9487519ef65")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -58094,7 +58094,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "c82847cb-0fbf-4060-be08-7482d4d98b9d")
+			(uuid "52af1a51-e1da-46fa-9f68-719642a7beba")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -58112,7 +58112,7 @@
 			(net 88 "Net-(SKD4-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "d66745de-40f4-4a63-978c-109e8da412ef")
+			(uuid "37654164-ffa1-46d9-9c37-64851ea3f6de")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -58208,7 +58208,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/0245bb14-fa5d-4ec4-9892-d74cb5b08c12")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -59516,7 +59516,7 @@
 			(net 62 "Net-(D7-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e31f008f-bf78-4e08-a13e-ae695263f060")
+			(uuid "7d33171d-a79e-4beb-b188-7908980f4308")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -59536,7 +59536,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c1d03c20-4fbd-426f-80ba-b3992cf05b3f")
+			(uuid "ac4c435d-b34a-4a23-ba10-d696c14cfe14")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -59550,6 +59550,687 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "custom_parts:qrcode"
+		(layer "F.Cu")
+		(uuid "c352e427-eafb-4904-8d1b-c914a0ac7acd")
+		(at 160.3 102.12)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c03f91a5-0e29-4d49-b95f-a1ac042995a8")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.75 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "182308f5-d75a-4cce-a31b-b23385364477")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a229ebfe-fd2b-40fa-b4f2-042a6afc3f8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ad71617-3dd6-4d80-a022-da328776a4f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy -10.208846 0.769327) (xy -10.208846 1.160096) (xy -10.599615 1.160096) (xy -10.990385 1.160096)
+				(xy -10.990385 0.769327) (xy -10.990385 0.378558) (xy -10.599615 0.378558) (xy -10.208846 0.378558)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "f24de139-7cd4-4187-a5b1-26b4f545e5e1")
+		)
+		(fp_poly
+			(pts
+				(xy -10.208846 3.419231) (xy -10.208846 4.945673) (xy -10.599615 4.945673) (xy -10.990385 4.945673)
+				(xy -10.990385 3.419231) (xy -10.990385 1.892788) (xy -10.599615 1.892788) (xy -10.208846 1.892788)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "a86e31e0-02cc-4d67-bef9-4c499bb8299a")
+		)
+		(fp_poly
+			(pts
+				(xy -3.019303 1.138554) (xy -2.631587 1.141779) (xy -2.631587 1.526442) (xy -2.631587 1.911106)
+				(xy -3.019303 1.91433) (xy -3.407019 1.917554) (xy -3.407019 1.526442) (xy -3.407019 1.13533)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "7b54c4a7-8b87-4f71-a1b8-c7ac63d85ef3")
+		)
+		(fp_poly
+			(pts
+				(xy 1.157215 3.800841) (xy 1.160439 4.188558) (xy 0.769327 4.188558) (xy 0.378215 4.188558) (xy 0.381439 3.800841)
+				(xy 0.384663 3.413125) (xy 0.769327 3.413125) (xy 1.15399 3.413125)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "b6075150-db8b-472a-9749-ae1e083b90db")
+		)
+		(fp_poly
+			(pts
+				(xy 10.620985 3.4099) (xy 11.008702 3.413125) (xy 11.011926 3.800841) (xy 11.015151 4.188558) (xy 10.62421 4.188558)
+				(xy 10.233269 4.188558) (xy 10.233269 3.797617) (xy 10.233269 3.406676)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "66ae6341-35e0-4d91-b699-77233502f428")
+		)
+		(fp_poly
+			(pts
+				(xy -5.665239 1.526442) (xy -5.665692 1.911106) (xy -6.04976 1.914329) (xy -6.148809 1.914819) (xy -6.237702 1.914592)
+				(xy -6.313777 1.913701) (xy -6.374369 1.912198) (xy -6.416816 1.910137) (xy -6.438455 1.907571)
+				(xy -6.440631 1.906547) (xy -6.442225 1.892024) (xy -6.4435 1.856137) (xy -6.444424 1.801946) (xy -6.444968 1.732508)
+				(xy -6.4451 1.650881) (xy -6.444789 1.560124) (xy -6.444509 1.51866) (xy -6.441587 1.141779) (xy -6.053186 1.141779)
+				(xy -5.664786 1.141779)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "210144b1-cfc6-4e9b-a428-e33f0e154fb9")
+		)
+		(fp_poly
+			(pts
+				(xy 4.945673 2.283386) (xy 4.945673 2.674327) (xy 4.560626 2.674327) (xy 4.448005 2.674113) (xy 4.357752 2.673416)
+				(xy 4.287816 2.672157) (xy 4.236147 2.670254) (xy 4.200692 2.667626) (xy 4.179401 2.664194) (xy 4.170222 2.659875)
+				(xy 4.169674 2.658936) (xy 4.168302 2.64327) (xy 4.167253 2.606309) (xy 4.166548 2.551178) (xy 4.166209 2.481003)
+				(xy 4.166257 2.398911) (xy 4.166713 2.308026) (xy 4.167004 2.27122) (xy 4.17024 1.898894) (xy 4.557957 1.89567)
+				(xy 4.945673 1.892445)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "4f455bc3-4fa2-4eac-a0b0-732f3e2e4541")
+		)
+		(fp_poly
+			(pts
+				(xy -7.204808 -8.341265) (xy -7.204904 -8.176975) (xy -7.205184 -8.019738) (xy -7.205634 -7.871258)
+				(xy -7.206239 -7.733239) (xy -7.206988 -7.607382) (xy -7.207865 -7.495392) (xy -7.208857 -7.398973)
+				(xy -7.20995 -7.319826) (xy -7.211131 -7.259656) (xy -7.212386 -7.220166) (xy -7.213701 -7.20306)
+				(xy -7.213966 -7.202476) (xy -7.227246 -7.20196) (xy -7.263229 -7.201532) (xy -7.320193 -7.201191)
+				(xy -7.396418 -7.20094) (xy -7.490184 -7.200778) (xy -7.599769 -7.200707) (xy -7.723454 -7.200728)
+				(xy -7.859517 -7.200842) (xy -8.006238 -7.20105) (xy -8.161897 -7.201352) (xy -8.324772 -7.20175)
+				(xy -8.349703 -7.201819) (xy -9.47628 -7.204935) (xy -9.473164 -8.337492) (xy -9.470048 -9.470048)
+				(xy -8.337428 -9.473164) (xy -7.204808 -9.47628)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "a1557bab-1750-417c-8218-84cfe655d0ca")
+		)
+		(fp_poly
+			(pts
+				(xy 8.337428 -9.473164) (xy 9.470048 -9.470048) (xy 9.473164 -8.337554) (xy 9.47628 -7.205059) (xy 8.34563 -7.20188)
+				(xy 8.181628 -7.201473) (xy 8.024658 -7.201189) (xy 7.876429 -7.201023) (xy 7.738651 -7.200975)
+				(xy 7.613033 -7.20104) (xy 7.501283 -7.201216) (xy 7.405112 -7.201501) (xy 7.326229 -7.20189) (xy 7.266342 -7.202382)
+				(xy 7.227161 -7.202973) (xy 7.210395 -7.20366) (xy 7.209894 -7.20379) (xy 7.209157 -7.216468) (xy 7.208453 -7.251861)
+				(xy 7.207788 -7.308264) (xy 7.20717 -7.383968) (xy 7.206607 -7.477269) (xy 7.206107 -7.586457) (xy 7.205677 -7.709827)
+				(xy 7.205324 -7.845671) (xy 7.205057 -7.992283) (xy 7.204883 -8.147956) (xy 7.20481 -8.310982) (xy 7.204808 -8.342579)
+				(xy 7.204808 -9.47628)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "e8f5c349-7579-48a6-87f8-5a08d79456a6")
+		)
+		(fp_poly
+			(pts
+				(xy 6.242081 5.680944) (xy 6.317202 5.681735) (xy 6.378394 5.683076) (xy 6.422609 5.684913) (xy 6.446801 5.68719)
+				(xy 6.450325 5.688325) (xy 6.45288 5.702671) (xy 6.455206 5.738393) (xy 6.457221 5.79244) (xy 6.458844 5.861766)
+				(xy 6.459993 5.943321) (xy 6.460588 6.034059) (xy 6.460653 6.076221) (xy 6.460663 6.453798) (xy 6.080672 6.459904)
+				(xy 5.962979 6.46149) (xy 5.868279 6.462064) (xy 5.795163 6.461597) (xy 5.742222 6.460064) (xy 5.708045 6.457436)
+				(xy 5.691224 6.453687) (xy 5.689345 6.452331) (xy 5.686406 6.436685) (xy 5.684022 6.399155) (xy 5.682245 6.342274)
+				(xy 5.681129 6.268577) (xy 5.680725 6.180597) (xy 5.681086 6.080868) (xy 5.681239 6.061562) (xy 5.684471 5.684471)
+				(xy 6.062238 5.681238) (xy 6.156078 5.68076)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "4c39ffc1-c0c8-42d5-9df9-c01e9f6af96c")
+		)
+		(fp_poly
+			(pts
+				(xy -5.684471 8.334375) (xy -5.684471 10.984279) (xy -8.337456 10.987359) (xy -10.99044 10.99044)
+				(xy -10.988279 9.129864) (xy -10.23108 9.129864) (xy -10.231078 9.307973) (xy -10.231 9.47418) (xy -10.230848 9.627152)
+				(xy -10.230625 9.765556) (xy -10.230332 9.88806) (xy -10.229972 9.993331) (xy -10.229545 10.080036)
+				(xy -10.229055 10.146842) (xy -10.228502 10.192416) (xy -10.227889 10.215426) (xy -10.227631 10.218005)
+				(xy -10.222388 10.22011) (xy -10.207692 10.222026) (xy -10.182579 10.22376) (xy -10.146081 10.225319)
+				(xy -10.097233 10.226712) (xy -10.03507 10.227945) (xy -9.958626 10.229028) (xy -9.866936 10.229968)
+				(xy -9.759033 10.230771) (xy -9.633952 10.231448) (xy -9.490728 10.232004) (xy -9.328395 10.232448)
+				(xy -9.145987 10.232788) (xy -8.942538 10.233032) (xy -8.717084 10.233186) (xy -8.468658 10.23326)
+				(xy -8.33472 10.233269) (xy -6.447616 10.233269) (xy -6.450707 8.340439) (xy -6.453798 6.447609)
+				(xy -8.340481 6.447497) (xy -10.227164 6.447384) (xy -10.2303 8.325062) (xy -10.230618 8.537452)
+				(xy -10.230852 8.743271) (xy -10.231006 8.941186) (xy -10.23108 9.129864) (xy -10.988279 9.129864)
+				(xy -10.987359 8.337455) (xy -10.984279 5.684471) (xy -8.334375 5.684471) (xy -5.684471 5.684471)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "bb12d746-aa86-422b-a46a-f4c3eed3d803")
+		)
+		(fp_poly
+			(pts
+				(xy -7.612994 7.20104) (xy -7.50125 7.201216) (xy -7.405084 7.2015) (xy -7.326207 7.20189) (xy -7.266326 7.202382)
+				(xy -7.227152 7.202973) (xy -7.210394 7.20366) (xy -7.209894 7.20379) (xy -7.209157 7.216467) (xy -7.208453 7.251861)
+				(xy -7.207788 7.308263) (xy -7.20717 7.383968) (xy -7.206607 7.477267) (xy -7.206107 7.586455) (xy -7.205677 7.709824)
+				(xy -7.205324 7.845667) (xy -7.205057 7.992277) (xy -7.204883 8.147947) (xy -7.20481 8.310971) (xy -7.204808 8.342516)
+				(xy -7.204808 9.476154) (xy -8.33234 9.476154) (xy -8.496193 9.476067) (xy -8.653068 9.475817) (xy -8.801249 9.475414)
+				(xy -8.939017 9.474872) (xy -9.064653 9.474202) (xy -9.176442 9.473418) (xy -9.272663 9.47253) (xy -9.351601 9.471553)
+				(xy -9.411537 9.470497) (xy -9.450752 9.469375) (xy -9.46753 9.4682) (xy -9.468013 9.468013) (xy -9.469195 9.454883)
+				(xy -9.470326 9.419049) (xy -9.471393 9.362227) (xy -9.472384 9.286136) (xy -9.473287 9.192494)
+				(xy -9.474088 9.083018) (xy -9.474776 8.959427) (xy -9.475339 8.823438) (xy -9.475764 8.67677) (xy -9.476039 8.521139)
+				(xy -9.476152 8.358265) (xy -9.476154 8.332465) (xy -9.476154 7.205059) (xy -8.345567 7.20188) (xy -8.18157 7.201473)
+				(xy -8.024604 7.201188) (xy -7.876381 7.201023) (xy -7.738607 7.200975)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "6884dd5f-2021-4df9-afcd-0f35b6eefb13")
+		)
+		(fp_poly
+			(pts
+				(xy -8.337428 -10.987359) (xy -5.684471 -10.984279) (xy -5.684471 -8.334375) (xy -5.684471 -5.684471)
+				(xy -8.329259 -5.681391) (xy -8.581693 -5.681134) (xy -8.827656 -5.680957) (xy -9.066032 -5.680857)
+				(xy -9.295706 -5.680833) (xy -9.515562 -5.680882) (xy -9.724486 -5.681002) (xy -9.921361 -5.681191)
+				(xy -10.105072 -5.681447) (xy -10.274503 -5.681768) (xy -10.42854 -5.682151) (xy -10.566066 -5.682595)
+				(xy -10.685966 -5.683097) (xy -10.787125 -5.683655) (xy -10.868427 -5.684267) (xy -10.928756 -5.684931)
+				(xy -10.966998 -5.685644) (xy -10.982036 -5.686405) (xy -10.982216 -5.686479) (xy -10.982995 -5.699293)
+				(xy -10.983754 -5.735415) (xy -10.984489 -5.79373) (xy -10.985198 -5.873124) (xy -10.985875 -5.972482)
+				(xy -10.986519 -6.090689) (xy -10.987126 -6.226629) (xy -10.987692 -6.37919) (xy -10.988213 -6.547254)
+				(xy -10.988687 -6.729708) (xy -10.98911 -6.925437) (xy -10.989479 -7.133326) (xy -10.989789 -7.35226)
+				(xy -10.989801 -7.363436) (xy -10.231251 -7.363436) (xy -10.231245 -7.197253) (xy -10.231176 -7.044318)
+				(xy -10.231045 -6.905963) (xy -10.230852 -6.783514) (xy -10.2306 -6.678302) (xy -10.230289 -6.591654)
+				(xy -10.229921 -6.524901) (xy -10.229495 -6.47937) (xy -10.229014 -6.45639) (xy -10.228802 -6.453798)
+				(xy -10.215867 -6.451952) (xy -10.178588 -6.450298) (xy -10.117043 -6.448836) (xy -10.03131 -6.447566)
+				(xy -9.921468 -6.44649) (xy -9.787595 -6.445606) (xy -9.629769 -6.444917) (xy -9.448069 -6.444421)
+				(xy -9.242571 -6.44412) (xy -9.013356 -6.444013) (xy -8.760501 -6.444102) (xy -8.484083 -6.444386)
+				(xy -8.338983 -6.444599) (xy -6.453798 -6.447611) (xy -6.450707 -8.340479) (xy -6.447616 -10.233346)
+				(xy -8.33739 -10.230255) (xy -10.227164 -10.227164) (xy -10.2303 -8.346587) (xy -10.230625 -8.134088)
+				(xy -10.230881 -7.928195) (xy -10.23107 -7.730236) (xy -10.231193 -7.54154) (xy -10.231251 -7.363436)
+				(xy -10.989801 -7.363436) (xy -10.990039 -7.581124) (xy -10.990223 -7.818804) (xy -10.99034 -8.064185)
+				(xy -10.990384 -8.316151) (xy -10.990385 -8.342544) (xy -10.990385 -10.99044)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "cf931b3d-6cf3-4c4c-8f50-ddd496888e28")
+		)
+		(fp_poly
+			(pts
+				(xy 10.987359 -8.337456) (xy 10.984279 -5.684471) (xy 8.337055 -5.681391) (xy 8.027053 -5.681055)
+				(xy 7.740651 -5.680799) (xy 7.477029 -5.680627) (xy 7.235363 -5.680544) (xy 7.014834 -5.680551)
+				(xy 6.814617 -5.680654) (xy 6.633892 -5.680857) (xy 6.471837 -5.681162) (xy 6.32763 -5.681574) (xy 6.200449 -5.682096)
+				(xy 6.089471 -5.682733) (xy 5.993876 -5.683488) (xy 5.91284 -5.684365) (xy 5.845544 -5.685367) (xy 5.791163 -5.686499)
+				(xy 5.748877 -5.687764) (xy 5.717863 -5.689166) (xy 5.6973 -5.690708) (xy 5.686366 -5.692396) (xy 5.684021 -5.693602)
+				(xy 5.683479 -5.707105) (xy 5.68298 -5.743911) (xy 5.682525 -5.802897) (xy 5.682113 -5.882943) (xy 5.681747 -5.982929)
+				(xy 5.681428 -6.101732) (xy 5.681157 -6.238232) (xy 5.680934 -6.391308) (xy 5.680762 -6.559839)
+				(xy 5.680641 -6.742704) (xy 5.680572 -6.938782) (xy 5.680556 -7.146951) (xy 5.680596 -7.366092)
+				(xy 5.68069 -7.595082) (xy 5.680842 -7.832802) (xy 5.681052 -8.078129) (xy 5.681321 -8.329942) (xy 5.681335 -8.342555)
+				(xy 6.447692 -8.342555) (xy 6.447724 -8.129606) (xy 6.447819 -7.923341) (xy 6.447972 -7.725077)
+				(xy 6.448181 -7.536134) (xy 6.448441 -7.357831) (xy 6.448749 -7.191485) (xy 6.449101 -7.038416)
+				(xy 6.449495 -6.899941) (xy 6.449926 -6.77738) (xy 6.450391 -6.672052) (xy 6.450886 -6.585274) (xy 6.451408 -6.518365)
+				(xy 6.451954 -6.472644) (xy 6.452519 -6.449429) (xy 6.452781 -6.446675) (xy 6.465354 -6.446119)
+				(xy 6.501029 -6.445618) (xy 6.558486 -6.445171) (xy 6.636404 -6.444782) (xy 6.733462 -6.444451)
+				(xy 6.848339 -6.44418) (xy 6.979715 -6.44397) (xy 7.126268 -6.443823) (xy 7.286679 -6.443741) (xy 7.459626 -6.443725)
+				(xy 7.643788 -6.443776) (xy 7.837845 -6.443896) (xy 8.040476 -6.444087) (xy 8.250361 -6.44435) (xy 8.342516 -6.444486)
+				(xy 10.227163 -6.447386) (xy 10.227163 -8.337275) (xy 10.227163 -10.227164) (xy 8.337428 -10.230255)
+				(xy 6.447692 -10.233346) (xy 6.447692 -8.342555) (xy 5.681335 -8.342555) (xy 5.68134 -8.346587)
+				(xy 5.684471 -10.984279) (xy 8.337455 -10.987359) (xy 10.99044 -10.99044)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "a59566c3-2e2a-4e40-8747-4a8ab9a32932")
+		)
+		(fp_poly
+			(pts
+				(xy -1.88363 -10.987424) (xy -1.117356 -10.984279) (xy -1.11421 -10.230216) (xy -1.111064 -9.476154)
+				(xy -0.744811 -9.476154) (xy -0.378558 -9.476154) (xy -0.378558 -9.854712) (xy -0.378558 -10.233269)
+				(xy 0 -10.233269) (xy 0.378558 -10.233269) (xy 0.378558 -10.611827) (xy 0.378558 -10.990385) (xy 1.905 -10.990385)
+				(xy 3.431442 -10.990385) (xy 3.431442 -10.599615) (xy 3.431442 -10.208846) (xy 3.052885 -10.208846)
+				(xy 2.674327 -10.208846) (xy 2.674327 -9.8425) (xy 2.674327 -9.476154) (xy 3.052885 -9.476154) (xy 3.431442 -9.476154)
+				(xy 3.431442 -9.097596) (xy 3.431442 -8.719039) (xy 3.797612 -8.719039) (xy 4.163782 -8.719039)
+				(xy 4.167011 -9.094543) (xy 4.17024 -9.470048) (xy 4.557957 -9.473273) (xy 4.945673 -9.476497) (xy 4.945673 -9.085733)
+				(xy 4.945673 -8.694968) (xy 4.570168 -8.691739) (xy 4.194663 -8.68851) (xy 4.191517 -7.93454) (xy 4.188371 -7.180571)
+				(xy 3.434402 -7.177425) (xy 2.680433 -7.174279) (xy 2.680433 -6.810394) (xy 2.680433 -6.446509)
+				(xy 3.052885 -6.444048) (xy 3.425336 -6.441587) (xy 3.431442 -6.063029) (xy 3.437548 -5.684471)
+				(xy 3.800667 -5.681237) (xy 4.163786 -5.678003) (xy 4.167013 -6.059795) (xy 4.17024 -6.441587) (xy 4.554904 -6.441587)
+				(xy 4.939567 -6.441587) (xy 4.939567 -6.053349) (xy 4.939567 -5.665111) (xy 4.567115 -5.662579)
+				(xy 4.194663 -5.660048) (xy 4.188558 -5.28149) (xy 4.182452 -4.902933) (xy 2.662115 -4.902933) (xy 1.141779 -4.902933)
+				(xy 1.141779 -5.888607) (xy 1.919255 -5.888607) (xy 1.919487 -5.815955) (xy 1.920116 -5.757348)
+				(xy 1.921116 -5.716004) (xy 1.922464 -5.695138) (xy 1.922813 -5.693594) (xy 1.929549 -5.688955)
+				(xy 1.947243 -5.685396) (xy 1.97811 -5.682841) (xy 2.024365 -5.681215) (xy 2.088226 -5.680442) (xy 2.171907 -5.680448)
+				(xy 2.277626 -5.681156) (xy 2.286298 -5.681233) (xy 2.643798 -5.684471) (xy 2.643798 -6.050817)
+				(xy 2.643798 -6.417164) (xy 2.283558 -6.417164) (xy 1.923317 -6.417164) (xy 1.920072 -6.063178)
+				(xy 1.919442 -5.972087) (xy 1.919255 -5.888607) (xy 1.141779 -5.888607) (xy 1.141779 -6.050817)
+				(xy 1.141779 -7.198702) (xy 1.514231 -7.201229) (xy 1.886683 -7.203756) (xy 1.889915 -7.570628)
+				(xy 1.893146 -7.9375) (xy 1.51441 -7.9375) (xy 1.135673 -7.9375) (xy 1.135673 -7.961923) (xy 2.673963 -7.961923)
+				(xy 3.040491 -7.961923) (xy 3.407019 -7.961923) (xy 3.407019 -8.328451) (xy 3.407019 -8.694979)
+				(xy 3.043726 -8.691744) (xy 2.680433 -8.68851) (xy 2.677198 -8.325216) (xy 2.673963 -7.961923) (xy 1.135673 -7.961923)
+				(xy 1.135673 -8.316058) (xy 1.135673 -8.694615) (xy 0.390769 -8.694615) (xy -0.354135 -8.694615)
+				(xy -0.354135 -8.328446) (xy -0.354135 -7.962276) (xy 0.02137 -7.959047) (xy 0.396875 -7.955817)
+				(xy 0.402981 -6.063029) (xy 0.409086 -4.17024) (xy 1.162973 -4.167095) (xy 1.916859 -4.163949) (xy 1.920088 -3.788537)
+				(xy 1.923317 -3.413125) (xy 2.28661 -3.409891) (xy 2.649904 -3.406656) (xy 2.649904 -3.785395) (xy 2.649904 -4.164135)
+				(xy 3.04058 -4.164135) (xy 3.431256 -4.164135) (xy 3.434402 -3.410072) (xy 3.437548 -2.65601) (xy 4.179399 -2.652862)
+				(xy 4.92125 -2.649715) (xy 4.92125 -3.015979) (xy 4.92125 -3.382243) (xy 4.545745 -3.385473) (xy 4.17024 -3.388702)
+				(xy 4.167016 -3.776418) (xy 4.164 -4.139001) (xy 4.945673 -4.139001) (xy 4.945673 -3.781151) (xy 4.945941 -3.690005)
+				(xy 4.946698 -3.606867) (xy 4.947874 -3.534851) (xy 4.949402 -3.477068) (xy 4.951211 -3.436631)
+				(xy 4.953233 -3.416652) (xy 4.953814 -3.41516) (xy 4.967647 -3.413094) (xy 5.002792 -3.411221) (xy 5.056138 -3.409609)
+				(xy 5.124575 -3.40833) (xy 5.204992 -3.40745) (xy 5.294278 -3.407041) (xy 5.32016 -3.407019) (xy 5.678365 -3.407019)
+				(xy 5.678365 -3.77133) (xy 5.678347 -3.781507) (xy 6.459904 -3.781507) (xy 6.460177 -3.690303) (xy 6.46095 -3.607098)
+				(xy 6.462152 -3.535003) (xy 6.463711 -3.477132) (xy 6.465559 -3.436597) (xy 6.467623 -3.416511)
+				(xy 6.468223 -3.414982) (xy 6.482095 -3.412984) (xy 6.517288 -3.411373) (xy 6.570704 -3.410194)
+				(xy 6.639243 -3.409488) (xy 6.719806 -3.409297) (xy 6.809293 -3.409666) (xy 6.837622 -3.409894)
+				(xy 7.198702 -3.413125) (xy 7.201936 -3.776418) (xy 7.205171 -4.139712) (xy 6.832537 -4.139712)
+				(xy 6.459904 -4.139712) (xy 6.459904 -3.781507) (xy 5.678347 -3.781507) (xy 5.678202 -3.863137)
+				(xy 5.677739 -3.946793) (xy 5.677018 -4.019249) (xy 5.676082 -4.077455) (xy 5.674973 -4.118362)
+				(xy 5.673731 -4.138921) (xy 5.673291 -4.140729) (xy 5.660264 -4.141904) (xy 5.625878 -4.142756)
+				(xy 5.573194 -4.143272) (xy 5.505276 -4.143439) (xy 5.425184 -4.143242) (xy 5.33598 -4.142666) (xy 5.306945 -4.142409)
+				(xy 4.945673 -4.139001) (xy 4.164 -4.139001) (xy 4.163791 -4.164135) (xy 4.542521 -4.164135) (xy 4.92125 -4.164135)
+				(xy 4.92125 -4.542755) (xy 4.92125 -4.921375) (xy 6.069355 -4.91826) (xy 7.217461 -4.915144) (xy 7.220293 -4.542692)
+				(xy 7.223125 -4.17024) (xy 7.968029 -4.17024) (xy 8.712933 -4.17024) (xy 8.716162 -4.545745) (xy 8.719391 -4.92125)
+				(xy 9.867191 -4.92125) (xy 11.014991 -4.92125) (xy 11.011846 -4.154976) (xy 11.008702 -3.388702)
+				(xy 10.620985 -3.385478) (xy 10.233269 -3.382253) (xy 10.233269 -3.760982) (xy 10.233269 -4.139712)
+				(xy 9.488542 -4.139712) (xy 8.743814 -4.139712) (xy 8.740585 -3.764207) (xy 8.737356 -3.388702)
+				(xy 7.98024 -3.382596) (xy 7.223125 -3.37649) (xy 7.223125 -3.01625) (xy 7.223125 -2.65601) (xy 7.983293 -2.652864)
+				(xy 8.743461 -2.649719) (xy 8.743461 -2.271072) (xy 8.743461 -1.892425) (xy 9.106755 -1.89566) (xy 9.470048 -1.898894)
+				(xy 9.473277 -2.274399) (xy 9.476507 -2.649904) (xy 9.867099 -2.649904) (xy 10.257692 -2.649904)
+				(xy 10.257692 -2.271346) (xy 10.257692 -1.892789) (xy 10.636342 -1.892789) (xy 11.014991 -1.892789)
+				(xy 11.011846 -1.126515) (xy 11.008702 -0.36024) (xy 10.242428 -0.357096) (xy 9.476154 -0.353951)
+				(xy 9.476154 -0.732601) (xy 9.476154 -1.11125) (xy 9.109984 -1.11125) (xy 8.743814 -1.11125) (xy 8.740585 -0.735745)
+				(xy 8.737356 -0.36024) (xy 7.98024 -0.354135) (xy 7.223125 -0.348029) (xy 7.223125 0.012211) (xy 7.223125 0.372452)
+				(xy 7.98024 0.378558) (xy 8.737356 0.384663) (xy 8.740585 0.759992) (xy 8.743814 1.135321) (xy 9.119142 1.13855)
+				(xy 9.494471 1.141779) (xy 9.4977 1.517284) (xy 9.50093 1.892788) (xy 9.867099 1.892788) (xy 10.233269 1.892788)
+				(xy 10.233269 1.135673) (xy 10.233269 0.378558) (xy 10.624038 0.378558) (xy 11.014808 0.378558)
+				(xy 11.014808 1.526442) (xy 11.014808 2.674327) (xy 10.245657 2.674327) (xy 9.476507 2.674327) (xy 9.473277 2.298822)
+				(xy 9.470048 1.923317) (xy 9.106755 1.920083) (xy 8.743461 1.916848) (xy 8.743461 3.040315) (xy 8.743461 4.163782)
+				(xy 9.118966 4.167011) (xy 9.494471 4.17024) (xy 9.4977 4.545652) (xy 9.500929 4.921064) (xy 10.254816 4.92421)
+				(xy 11.008702 4.927356) (xy 11.011926 5.315072) (xy 11.015151 5.702788) (xy 10.245829 5.702788)
+				(xy 9.476507 5.702788) (xy 9.473277 5.327284) (xy 9.470048 4.951779) (xy 9.106755 4.948544) (xy 8.743461 4.94531)
+				(xy 8.743461 5.324049) (xy 8.743461 5.702788) (xy 8.364725 5.702788) (xy 7.985988 5.702788) (xy 7.98922 6.072187)
+				(xy 7.992452 6.441586) (xy 8.358798 6.444504) (xy 8.451109 6.445241) (xy 8.535491 6.445919) (xy 8.60886 6.446512)
+				(xy 8.66813 6.446995) (xy 8.710217 6.447344) (xy 8.732034 6.447533) (xy 8.734303 6.447557) (xy 8.736561 6.459313)
+				(xy 8.738617 6.492555) (xy 8.7404 6.544345) (xy 8.741838 6.611745) (xy 8.742861 6.691819) (xy 8.743397 6.781629)
+				(xy 8.743461 6.826344) (xy 8.743461 7.204997) (xy 9.485312 7.201849) (xy 10.227163 7.198702) (xy 10.233269 6.822496)
+				(xy 10.239375 6.44629) (xy 10.617933 6.446875) (xy 10.71182 6.447024) (xy 10.797822 6.447166) (xy 10.872905 6.447296)
+				(xy 10.934034 6.447408) (xy 10.978178 6.447498) (xy 11.002301 6.447559) (xy 11.00582 6.447576) (xy 11.008004 6.459331)
+				(xy 11.009806 6.492594) (xy 11.011179 6.544454) (xy 11.012078 6.611999) (xy 11.012456 6.692318)
+				(xy 11.012268 6.782497) (xy 11.011926 6.832832) (xy 11.008702 7.217972) (xy 10.63625 7.220549) (xy 10.263798 7.223125)
+				(xy 10.257692 7.601683) (xy 10.251586 7.98024) (xy 8.745579 7.98315) (xy 8.555711 7.983573) (xy 8.372584 7.984088)
+				(xy 8.197684 7.984686) (xy 8.032498 7.985357) (xy 7.878514 7.986093) (xy 7.737217 7.986883) (xy 7.610095 7.987717)
+				(xy 7.498634 7.988586) (xy 7.404323 7.98948) (xy 7.328646 7.99039) (xy 7.273092 7.991305) (xy 7.239148 7.992217)
+				(xy 7.228313 7.993019) (xy 7.225308 8.006835) (xy 7.22288 8.042569) (xy 7.221086 8.09772) (xy 7.219983 8.169789)
+				(xy 7.219627 8.256276) (xy 7.220074 8.354681) (xy 7.220089 8.356455) (xy 7.223125 8.712933) (xy 8.7405 8.716033)
+				(xy 10.257876 8.719134) (xy 10.254731 9.48536) (xy 10.251586 10.251586) (xy 9.876258 10.254816)
+				(xy 9.500929 10.258045) (xy 9.4977 10.633373) (xy 9.494471 11.008702) (xy 9.106755 11.011926) (xy 8.719038 11.015151)
+				(xy 8.719038 10.624386) (xy 8.719038 10.233622) (xy 9.094543 10.230393) (xy 9.470048 10.227163)
+				(xy 9.473283 9.86387) (xy 9.476517 9.500577) (xy 8.731525 9.500577) (xy 7.986532 9.500577) (xy 7.983386 10.254639)
+				(xy 7.98024 11.008702) (xy 7.592524 11.011926) (xy 7.204808 11.015151) (xy 7.204808 10.257864) (xy 7.204808 9.500577)
+				(xy 6.453616 9.500577) (xy 5.702425 9.500577) (xy 5.70566 9.86387) (xy 5.708894 10.227163) (xy 6.084415 10.233269)
+				(xy 6.177371 10.235066) (xy 6.261953 10.237251) (xy 6.33521 10.239704) (xy 6.394196 10.242304) (xy 6.435963 10.244933)
+				(xy 6.457564 10.247469) (xy 6.459919 10.248534) (xy 6.459916 10.262582) (xy 6.459912 10.298022)
+				(xy 6.459909 10.351822) (xy 6.459906 10.420951) (xy 6.459905 10.502377) (xy 6.459904 10.59307) (xy 6.459904 10.636342)
+				(xy 6.459904 11.014991) (xy 5.69363 11.011846) (xy 4.927356 11.008702) (xy 4.924126 10.633197) (xy 4.920897 10.257692)
+				(xy 4.554727 10.257692) (xy 4.188558 10.257692) (xy 4.188558 10.636342) (xy 4.188558 11.014991)
+				(xy 3.422284 11.011846) (xy 2.65601 11.008702) (xy 2.65278 10.633373) (xy 2.649551 10.258045) (xy 2.274223 10.254816)
+				(xy 1.898894 10.251586) (xy 1.895665 9.876082) (xy 1.895516 9.858782) (xy 3.431442 9.858782) (xy 3.43171 9.949975)
+				(xy 3.432466 10.03316) (xy 3.433642 10.105226) (xy 3.435168 10.163064) (xy 3.436976 10.203562) (xy 3.438995 10.22361)
+				(xy 3.439583 10.225128) (xy 3.453416 10.227195) (xy 3.488561 10.229068) (xy 3.541907 10.230679)
+				(xy 3.610344 10.231959) (xy 3.690761 10.232838) (xy 3.780048 10.233248) (xy 3.805929 10.233269)
+				(xy 4.164135 10.233269) (xy 4.164135 9.866923) (xy 4.164135 9.500577) (xy 3.797788 9.500577) (xy 3.431442 9.500577)
+				(xy 3.431442 9.858782) (xy 1.895516 9.858782) (xy 1.892435 9.500577) (xy 1.526266 9.500577) (xy 1.160096 9.500577)
+				(xy 1.160096 10.257692) (xy 1.160096 11.014808) (xy 0.012211 11.014808) (xy -1.135673 11.014808)
+				(xy -1.135673 10.63625) (xy -1.135673 10.257692) (xy -1.501843 10.257692) (xy -1.868013 10.257692)
+				(xy -1.871242 10.633197) (xy -1.874471 11.008702) (xy -3.019303 11.011817) (xy -4.164135 11.014933)
+				(xy -4.164135 10.624277) (xy -4.164135 10.233622) (xy -3.78863 10.230393) (xy -3.413125 10.227163)
+				(xy -3.40992 9.867105) (xy -2.625481 9.867105) (xy -2.625481 10.233633) (xy -2.262188 10.230398)
+				(xy -1.898894 10.227163) (xy -1.895687 9.866923) (xy -1.11125 9.866923) (xy -1.11125 10.233269)
+				(xy -0.744904 10.233269) (xy -0.378558 10.233269) (xy -0.378558 9.866923) (xy -0.378558 9.500577)
+				(xy -0.744904 9.500577) (xy -1.11125 9.500577) (xy -1.11125 9.866923) (xy -1.895687 9.866923) (xy -1.89566 9.86387)
+				(xy -1.892425 9.500577) (xy -2.258953 9.500577) (xy -2.625481 9.500577) (xy -2.625481 9.867105)
+				(xy -3.40992 9.867105) (xy -3.409891 9.86387) (xy -3.406656 9.500577) (xy -4.163953 9.500577) (xy -4.92125 9.500577)
+				(xy -4.92125 9.109808) (xy -0.354135 9.109808) (xy -0.354135 9.476154) (xy 0.390769 9.476154) (xy 1.135673 9.476154)
+				(xy 1.135673 9.109808) (xy 1.135673 8.743461) (xy 0.390769 8.743461) (xy -0.354135 8.743461) (xy -0.354135 9.109808)
+				(xy -4.92125 9.109808) (xy -4.92125 8.354727) (xy -4.921197 8.189606) (xy -4.921043 8.031507) (xy -4.920796 7.882128)
+				(xy -4.920462 7.743165) (xy -4.92005 7.616319) (xy -4.919568 7.503285) (xy -4.919021 7.405762) (xy -4.918419 7.325447)
+				(xy -4.917768 7.264038) (xy -4.917076 7.223234) (xy -4.916351 7.204732) (xy -4.916166 7.20379) (xy -4.903389 7.202947)
+				(xy -4.868274 7.202248) (xy -4.812905 7.201699) (xy -4.739368 7.201305) (xy -4.649747 7.201071)
+				(xy -4.546127 7.201001) (xy -4.430592 7.201101) (xy -4.305228 7.201376) (xy -4.172118 7.201831)
+				(xy -4.146668 7.201936) (xy -3.382254 7.205171) (xy -3.385478 7.592705) (xy -3.388702 7.98024) (xy -3.761154 7.982767)
+				(xy -4.133606 7.985295) (xy -4.136838 8.352261) (xy -4.14007 8.719228) (xy -3.39804 8.71608) (xy -2.65601 8.712933)
+				(xy -2.65278 8.337428) (xy -2.649551 7.961923) (xy -1.880401 7.961923) (xy -1.11125 7.961923) (xy -1.11125 8.340662)
+				(xy -1.11125 8.719402) (xy -0.747957 8.716167) (xy -0.384664 8.712933) (xy -0.381434 8.337521) (xy -0.378404 7.985303)
+				(xy 1.166202 7.985303) (xy 1.166202 8.349118) (xy 1.166202 8.712933) (xy 1.541707 8.716162) (xy 1.917211 8.719391)
+				(xy 1.917211 9.089631) (xy 1.91747 9.182385) (xy 1.918203 9.267168) (xy 1.919344 9.340923) (xy 1.920827 9.400594)
+				(xy 1.922587 9.443123) (xy 1.924558 9.465454) (xy 1.925352 9.468013) (xy 1.939185 9.470079) (xy 1.97433 9.471953)
+				(xy 2.027677 9.473564) (xy 2.096114 9.474844) (xy 2.176531 9.475723) (xy 2.265817 9.476133) (xy 2.291699 9.476154)
+				(xy 2.649904 9.476154) (xy 2.649904 9.097596) (xy 2.649904 8.719038) (xy 3.02864 8.719038) (xy 3.407377 8.719038)
+				(xy 3.405056 8.455621) (xy 5.702555 8.455621) (xy 5.703052 8.530845) (xy 5.70407 8.597542) (xy 5.70563 8.652052)
+				(xy 5.70775 8.690712) (xy 5.710452 8.709862) (xy 5.711108 8.711076) (xy 5.72498 8.713074) (xy 5.760173 8.714684)
+				(xy 5.813589 8.715864) (xy 5.882128 8.71657) (xy 5.96269 8.71676) (xy 6.052178 8.716392) (xy 6.080507 8.716164)
+				(xy 6.441586 8.712933) (xy 6.444138 8.356156) (xy 6.444459 8.259082) (xy 6.444007 8.173098) (xy 6.442846 8.100835)
+				(xy 6.441037 8.044922) (xy 6.438643 8.007988) (xy 6.435727 7.992662) (xy 6.435508 7.992469) (xy 6.421701 7.991134)
+				(xy 6.387027 7.989856) (xy 6.335044 7.988665) (xy 6.269306 7.987593) (xy 6.193372 7.98667) (xy 6.110797 7.985929)
+				(xy 6.025137 7.9854) (xy 5.93995 7.985114) (xy 5.858792 7.985103) (xy 5.785219 7.985398) (xy 5.722788 7.98603)
+				(xy 5.715 7.986149) (xy 5.712031 7.9978) (xy 5.709427 8.030211) (xy 5.707207 8.07972) (xy 5.705391 8.142668)
+				(xy 5.703997 8.215392) (xy 5.703047 8.294233) (xy 5.70256 8.37553) (xy 5.702555 8.455621) (xy 3.405056 8.455621)
+				(xy 3.404145 8.352167) (xy 3.400913 7.985295) (xy 3.028461 7.982767) (xy 2.65601 7.98024) (xy 2.654109 7.751649)
+				(xy 3.433477 7.751649) (xy 3.433699 7.824271) (xy 3.434313 7.882843) (xy 3.435297 7.924148) (xy 3.436627 7.944973)
+				(xy 3.436973 7.94651) (xy 3.444173 7.951152) (xy 3.46323 7.954833) (xy 3.496255 7.957641) (xy 3.545363 7.959665)
+				(xy 3.612665 7.960994) (xy 3.700276 7.961717) (xy 3.80369 7.961923) (xy 4.164493 7.961923) (xy 4.161261 7.592524)
+				(xy 4.158029 7.223125) (xy 3.797788 7.223125) (xy 3.437548 7.223125) (xy 3.434303 7.577111) (xy 3.43367 7.66819)
+				(xy 3.433477 7.751649) (xy 2.654109 7.751649) (xy 2.652785 7.592524) (xy 2.649561 7.204808) (xy 3.02829 7.204808)
+				(xy 3.407019 7.204808) (xy 3.407019 6.52924) (xy 4.947849 6.52924) (xy 4.947859 6.666286) (xy 4.947996 6.791244)
+				(xy 4.948257 6.902369) (xy 4.948636 6.997915) (xy 4.949131 7.076137) (xy 4.949737 7.135288) (xy 4.950449 7.173624)
+				(xy 4.951264 7.1894) (xy 4.951322 7.189607) (xy 4.956841 7.192302) (xy 4.972044 7.194652) (xy 4.998189 7.196671)
+				(xy 5.036535 7.198373) (xy 5.088339 7.19977) (xy 5.154858 7.200877) (xy 5.237351 7.201708) (xy 5.337075 7.202276)
+				(xy 5.455288 7.202594) (xy 5.593248 7.202677) (xy 5.752211 7.202537) (xy 5.933437 7.202189) (xy 6.077934 7.201819)
+				(xy 7.198702 7.198702) (xy 7.198702 6.07524) (xy 7.198702 4.951779) (xy 6.07524 4.951779) (xy 4.951779 4.951779)
+				(xy 4.948628 6.063029) (xy 4.94823 6.225866) (xy 4.947972 6.381852) (xy 4.947849 6.52924) (xy 3.407019 6.52924)
+				(xy 3.407019 6.453616) (xy 3.407019 5.702425) (xy 3.043726 5.70566) (xy 2.680433 5.708894) (xy 2.677203 6.084223)
+				(xy 2.673974 6.459551) (xy 2.298646 6.46278) (xy 1.923317 6.46601) (xy 1.917211 7.223125) (xy 1.911106 7.98024)
+				(xy 1.538654 7.982771) (xy 1.166202 7.985303) (xy -0.378404 7.985303) (xy -0.378205 7.962109) (xy 0.375681 7.958963)
+				(xy 1.129567 7.955817) (xy 1.129567 7.210913) (xy 1.129567 6.46601) (xy 0.769327 6.46601) (xy 0.409086 6.46601)
+				(xy 0.402981 6.842232) (xy 0.396875 7.218455) (xy -0.366346 7.218481) (xy -1.129567 7.218506) (xy -1.135673 6.842258)
+				(xy -1.141779 6.46601) (xy -1.502019 6.46601) (xy -1.86226 6.46601) (xy -1.868365 6.842068) (xy -1.874471 7.218127)
+				(xy -2.259135 7.218127) (xy -2.643798 7.218127) (xy -2.649904 6.842068) (xy -2.65601 6.46601) (xy -3.028462 6.463485)
+				(xy -3.400914 6.460961) (xy -3.407019 6.084928) (xy -3.407311 6.066918) (xy -2.625481 6.066918)
+				(xy -2.625226 6.158914) (xy -2.624505 6.24291) (xy -2.623383 6.315824) (xy -2.621925 6.374578) (xy -2.620198 6.416093)
+				(xy -2.618264 6.437288) (xy -2.617587 6.439304) (xy -2.603814 6.441222) (xy -2.56874 6.442781) (xy -2.515486 6.443939)
+				(xy -2.447173 6.44465) (xy -2.36692 6.444872) (xy -2.277849 6.44456) (xy -2.254294 6.444392) (xy -1.898894 6.441586)
+				(xy -1.898894 6.07524) (xy -1.898894 5.708894) (xy -2.262188 5.70566) (xy -2.625481 5.702425) (xy -2.625481 6.066918)
+				(xy -3.407311 6.066918) (xy -3.413125 5.708894) (xy -4.167188 5.705748) (xy -4.92125 5.702602) (xy -4.92125 5.311926)
+				(xy -4.92125 5.309802) (xy -3.382596 5.309802) (xy -3.382432 5.401633) (xy -3.381967 5.485313) (xy -3.381244 5.557794)
+				(xy -3.380305 5.616028) (xy -3.379191 5.656966) (xy -3.377945 5.67756) (xy -3.377501 5.679383) (xy -3.364465 5.680597)
+				(xy -3.330082 5.68155) (xy -3.27743 5.68222) (xy -3.209583 5.682583) (xy -3.129619 5.682615) (xy -3.040612 5.682294)
+				(xy -3.014208 5.682136) (xy -2.65601 5.679801) (xy -2.65601 5.31579) (xy -2.65601 5.309802) (xy -1.868365 5.309802)
+				(xy -1.868201 5.401633) (xy -1.867737 5.485313) (xy -1.867014 5.557794) (xy -1.866074 5.616028)
+				(xy -1.86496 5.656966) (xy -1.863714 5.67756) (xy -1.86327 5.679383) (xy -1.850234 5.680597) (xy -1.815852 5.68155)
+				(xy -1.763199 5.68222) (xy -1.695353 5.682583) (xy -1.615388 5.682615) (xy -1.526381 5.682294) (xy -1.499977 5.682136)
+				(xy -1.141779 5.679801) (xy -1.141779 5.31579) (xy -1.141779 4.951779) (xy -1.505072 4.948544) (xy -1.868365 4.94531)
+				(xy -1.868365 5.309802) (xy -2.65601 5.309802) (xy -2.65601 4.951779) (xy -3.019303 4.948544) (xy -3.382596 4.94531)
+				(xy -3.382596 5.309802) (xy -4.92125 5.309802) (xy -4.92125 4.92125) (xy -4.163953 4.92125) (xy -3.406656 4.92125)
+				(xy -3.409891 4.557957) (xy -3.413125 4.194663) (xy -4.536587 4.194663) (xy -5.660048 4.194663)
+				(xy -5.662579 4.567115) (xy -5.66511 4.939567) (xy -7.192074 4.942667) (xy -8.719039 4.945768) (xy -8.719039 4.188605)
+				(xy -8.719039 4.164135) (xy -6.423633 4.164135) (xy -6.050817 4.164135) (xy -5.678002 4.164135)
+				(xy -5.681237 3.800841) (xy -5.681265 3.797694) (xy -3.382596 3.797694) (xy -3.382596 4.164135)
+				(xy -2.637511 4.164135) (xy -1.892425 4.164135) (xy -1.89566 3.800841) (xy -1.898894 3.437548) (xy -2.640745 3.4344)
+				(xy -3.382596 3.431253) (xy -3.382596 3.797694) (xy -5.681265 3.797694) (xy -5.684471 3.437548)
+				(xy -6.050817 3.437548) (xy -6.417164 3.437548) (xy -6.420398 3.800841) (xy -6.423633 4.164135)
+				(xy -8.719039 4.164135) (xy -8.719039 3.431442) (xy -9.097688 3.431442) (xy -9.476337 3.431442)
+				(xy -9.473193 2.665168) (xy -9.47313 2.649904) (xy -8.694979 2.649904) (xy -8.328451 2.649904) (xy -7.961923 2.649904)
+				(xy -7.961923 2.283376) (xy -7.961923 1.916848) (xy -8.325216 1.920083) (xy -8.68851 1.923317) (xy -8.691744 2.28661)
+				(xy -8.694979 2.649904) (xy -9.47313 2.649904) (xy -9.470048 1.898894) (xy -9.094543 1.895665) (xy -8.719039 1.892435)
+				(xy -8.719039 1.526266) (xy -8.719039 1.160096) (xy -9.097768 1.160096) (xy -9.476497 1.160096)
+				(xy -9.473273 0.77238) (xy -9.470048 0.384663) (xy -9.082332 0.381439) (xy -8.694616 0.378215) (xy -8.694615 0.756944)
+				(xy -8.694615 1.135673) (xy -8.316058 1.135673) (xy -7.9375 1.135673) (xy -7.9375 1.514231) (xy -7.9375 1.892788)
+				(xy -7.558942 1.892788) (xy -7.180385 1.892788) (xy -7.180385 2.271346) (xy -7.180385 2.649904)
+				(xy -6.050754 2.649904) (xy -4.921122 2.649904) (xy -4.924239 1.529495) (xy -4.927356 0.409086)
+				(xy -5.684471 0.402981) (xy -4.139712 0.402981) (xy -4.139712 1.905) (xy -4.139712 3.407019) (xy -3.773365 3.407019)
+				(xy -3.407019 3.407019) (xy -3.407019 3.02837) (xy -3.407019 2.64972) (xy -2.640745 2.652865) (xy -1.874471 2.65601)
+				(xy -1.871242 3.031338) (xy -1.868013 3.406667) (xy -1.492684 3.409896) (xy -1.117356 3.413125)
+				(xy -1.114127 3.788453) (xy -1.110898 4.163782) (xy -0.735569 4.167011) (xy -0.36024 4.17024) (xy -0.354135 4.924582)
+				(xy -0.348029 5.678923) (xy 0.402981 5.681697) (xy 1.15399 5.684471) (xy 1.15708 6.050817) (xy 1.158047 6.143519)
+				(xy 1.159288 6.228642) (xy 1.160729 6.303027) (xy 1.162296 6.363517) (xy 1.163916 6.406953) (xy 1.165515 6.430178)
+				(xy 1.16603 6.432884) (xy 1.172554 6.437546) (xy 1.18972 6.441116) (xy 1.219776 6.443671) (xy 1.264966 6.445286)
+				(xy 1.327538 6.446036) (xy 1.409736 6.445997) (xy 1.513806 6.445244) (xy 1.529287 6.445095) (xy 1.886683 6.441586)
+				(xy 1.889774 4.557957) (xy 1.892866 2.674327) (xy 1.514269 2.674327) (xy 1.135673 2.674327) (xy 1.135673 2.283558)
+				(xy 1.135673 1.892788) (xy 1.905 1.892788) (xy 2.674327 1.892788) (xy 2.674327 2.649904) (xy 2.674327 3.407019)
+				(xy 3.052885 3.407019) (xy 3.431442 3.407019) (xy 3.431442 3.797612) (xy 3.431442 4.188205) (xy 3.055937 4.191434)
+				(xy 2.680433 4.194663) (xy 2.677198 4.557957) (xy 2.673963 4.92125) (xy 3.418956 4.92125) (xy 4.163948 4.92125)
+				(xy 4.167094 4.167187) (xy 4.17024 3.413125) (xy 4.557957 3.4099) (xy 4.945673 3.406676) (xy 4.945673 3.785405)
+				(xy 4.945673 4.164135) (xy 5.311956 4.164135) (xy 5.678239 4.164135) (xy 5.679605 3.667599) (xy 7.219899 3.667599)
+				(xy 7.219961 3.782467) (xy 7.220227 3.885781) (xy 7.220685 3.975389) (xy 7.221326 4.049139) (xy 7.222138 4.104877)
+				(xy 7.22311 4.14045) (xy 7.224204 4.153669) (xy 7.237587 4.156298) (xy 7.272335 4.158685) (xy 7.325389 4.160744)
+				(xy 7.393691 4.162389) (xy 7.474182 4.163534) (xy 7.563806 4.164093) (xy 7.596392 4.164135) (xy 7.962112 4.164135)
+				(xy 7.958965 3.422284) (xy 7.955817 2.680433) (xy 7.589471 2.680433) (xy 7.223125 2.680433) (xy 7.22043 3.411818)
+				(xy 7.220052 3.543332) (xy 7.219899 3.667599) (xy 5.679605 3.667599) (xy 5.681355 3.031514) (xy 5.682971 2.444144)
+				(xy 6.461943 2.444144) (xy 6.462187 2.515938) (xy 6.462832 2.57361) (xy 6.463856 2.613914) (xy 6.465232 2.633599)
+				(xy 6.465501 2.634665) (xy 6.472199 2.639269) (xy 6.489801 2.642812) (xy 6.520507 2.645366) (xy 6.566516 2.647007)
+				(xy 6.63003 2.647806) (xy 6.713248 2.647839) (xy 6.818371 2.647178) (xy 6.835095 2.647033) (xy 7.198702 2.643798)
+				(xy 7.198702 2.283558) (xy 7.198702 1.923317) (xy 6.832356 1.923317) (xy 6.46601 1.923317) (xy 6.462762 2.271189)
+				(xy 6.462127 2.361479) (xy 6.461943 2.444144) (xy 5.682971 2.444144) (xy 5.684471 1.898894) (xy 6.063029 1.892788)
+				(xy 6.170692 1.890915) (xy 6.256344 1.889045) (xy 6.322397 1.887025) (xy 6.371263 1.884698) (xy 6.405354 1.88191)
+				(xy 6.427082 1.878507) (xy 6.438859 1.874332) (xy 6.443095 1.869232) (xy 6.443231 1.868365) (xy 6.443697 1.851854)
+				(xy 6.444209 1.814154) (xy 6.44474 1.758499) (xy 6.445265 1.688123) (xy 6.445735 1.609857) (xy 7.220099 1.609857)
+				(xy 7.220101 1.69259) (xy 7.220519 1.764258) (xy 7.221321 1.8217) (xy 7.222474 1.861757) (xy 7.223945 1.881269)
+				(xy 7.22432 1.882511) (xy 7.237673 1.885092) (xy 7.272392 1.887436) (xy 7.325421 1.889457) (xy 7.393703 1.891073)
+				(xy 7.474181 1.892198) (xy 7.563799 1.892747) (xy 7.596479 1.892788) (xy 7.962286 1.892788) (xy 7.959052 1.529495)
+				(xy 7.955817 1.166202) (xy 7.589471 1.166202) (xy 7.223125 1.166202) (xy 7.220547 1.519218) (xy 7.220099 1.609857)
+				(xy 6.445735 1.609857) (xy 6.445757 1.606259) (xy 6.446189 1.516142) (xy 6.446284 1.493037) (xy 6.447692 1.136026)
+				(xy 6.823197 1.132797) (xy 7.198702 1.129567) (xy 7.198702 0.769327) (xy 7.198702 0.409086) (xy 6.823197 0.405857)
+				(xy 6.447692 0.402628) (xy 6.446284 0.045617) (xy 6.44587 -0.046038) (xy 6.44539 -0.130236) (xy 6.444871 -0.203743)
+				(xy 6.444339 -0.263327) (xy 6.44382 -0.305752) (xy 6.44334 -0.327786) (xy 6.443231 -0.329712) (xy 6.440605 -0.333522)
+				(xy 6.432303 -0.336774) (xy 6.416578 -0.339511) (xy 6.391687 -0.341776) (xy 6.355884 -0.343611)
+				(xy 6.307425 -0.345059) (xy 6.244565 -0.346164) (xy 6.16556 -0.346967) (xy 6.068664 -0.347512) (xy 5.952134 -0.347842)
+				(xy 5.814223 -0.347999) (xy 5.696683 -0.348029) (xy 4.951779 -0.348029) (xy 4.951779 0.012211) (xy 4.951779 0.372452)
+				(xy 5.327284 0.375681) (xy 5.702788 0.378911) (xy 5.702788 0.769675) (xy 5.702788 1.160439) (xy 5.315072 1.157215)
+				(xy 4.927356 1.15399) (xy 4.924127 0.778662) (xy 4.920897 0.403333) (xy 4.545569 0.400104) (xy 4.17024 0.396875)
+				(xy 4.167011 0.02137) (xy 4.163782 -0.354135) (xy 3.797612 -0.354135) (xy 3.431442 -0.354135) (xy 3.431442 0.024423)
+				(xy 3.431442 0.402981) (xy 3.052885 0.402981) (xy 2.674327 0.402981) (xy 2.674327 0.781538) (xy 2.674327 1.160096)
+				(xy 1.538654 1.160096) (xy 0.402981 1.160096) (xy 0.402981 1.538654) (xy 0.402981 1.917211) (xy -0.366346 1.917211)
+				(xy -1.135673 1.917211) (xy -1.135673 1.160096) (xy -1.135673 0.769327) (xy -0.354135 0.769327)
+				(xy -0.354135 1.135673) (xy 0.012211 1.135673) (xy 0.378558 1.135673) (xy 0.378558 0.769327) (xy 0.378558 0.402981)
+				(xy 0.012211 0.402981) (xy -0.354135 0.402981) (xy -0.354135 0.769327) (xy -1.135673 0.769327) (xy -1.135673 0.402981)
+				(xy -2.637692 0.402981) (xy -4.139712 0.402981) (xy -5.684471 0.402981) (xy -5.840903 0.401662)
+				(xy -5.974638 0.400385) (xy -6.087401 0.399093) (xy -6.180917 0.397731) (xy -6.256911 0.396243)
+				(xy -6.31711 0.394575) (xy -6.363239 0.39267) (xy -6.397023 0.390473) (xy -6.420187 0.387929) (xy -6.434457 0.384981)
+				(xy -6.441558 0.381574) (xy -6.443231 0.378558) (xy -6.443697 0.362047) (xy -6.444209 0.324347)
+				(xy -6.44474 0.268691) (xy -6.445265 0.198315) (xy -6.445757 0.116451) (xy -6.446189 0.026334) (xy -6.446284 0.003229)
+				(xy -6.447692 -0.353782) (xy -6.823197 -0.357011) (xy -7.198702 -0.36024) (xy -7.200629 -0.584317)
+				(xy -6.42123 -0.584317) (xy -6.420986 -0.512524) (xy -6.420341 -0.454851) (xy -6.419317 -0.414548)
+				(xy -6.417941 -0.394862) (xy -6.417672 -0.393797) (xy -6.410974 -0.389193) (xy -6.393372 -0.38565)
+				(xy -6.362667 -0.383095) (xy -6.316657 -0.381455) (xy -6.253143 -0.380655) (xy -6.169925 -0.380623)
+				(xy -6.064802 -0.381284) (xy -6.048078 -0.381428) (xy -5.684471 -0.384664) (xy -5.684471 -0.744904)
+				(xy -5.684471 -1.105144) (xy -6.050817 -1.105144) (xy -6.417164 -1.105144) (xy -6.420412 -0.757272)
+				(xy -6.421046 -0.666983) (xy -6.42123 -0.584317) (xy -7.200629 -0.584317) (xy -7.201931 -0.735745)
+				(xy -7.205161 -1.11125) (xy -7.57133 -1.11125) (xy -7.9375 -1.11125) (xy -7.9375 -0.732692) (xy -7.9375 -0.354135)
+				(xy -9.463942 -0.354135) (xy -10.990385 -0.354135) (xy -10.990385 -0.744904) (xy -10.990385 -1.135673)
+				(xy -10.611827 -1.135673) (xy -10.233269 -1.135673) (xy -10.233269 -1.502019) (xy -9.451731 -1.502019)
+				(xy -9.451731 -1.135673) (xy -9.085385 -1.135673) (xy -8.719039 -1.135673) (xy -8.719039 -1.502019)
+				(xy -8.719039 -1.868365) (xy -9.085385 -1.868365) (xy -9.451731 -1.868365) (xy -9.451731 -1.502019)
+				(xy -10.233269 -1.502019) (xy -10.233269 -1.514231) (xy -10.233269 -1.892789) (xy -9.854712 -1.892789)
+				(xy -9.476154 -1.892789) (xy -9.476154 -2.259042) (xy -9.476154 -2.625295) (xy -10.230216 -2.628441)
+				(xy -10.984279 -2.631587) (xy -10.985891 -3.024391) (xy -9.451731 -3.024391) (xy -9.451463 -2.933198)
+				(xy -9.450707 -2.850013) (xy -9.449531 -2.777947) (xy -9.448005 -2.720109) (xy -9.446198 -2.679611)
+				(xy -9.444178 -2.659564) (xy -9.44359 -2.658045) (xy -9.429757 -2.655979) (xy -9.394612 -2.654105)
+				(xy -9.341266 -2.652494) (xy -9.272829 -2.651214) (xy -9.192412 -2.650335) (xy -9.103125 -2.649925)
+				(xy -9.077244 -2.649904) (xy -8.719039 -2.649904) (xy -8.719039 -3.01625) (xy -8.719039 -3.382596)
+				(xy -9.085385 -3.382596) (xy -9.451731 -3.382596) (xy -9.451731 -3.024391) (xy -10.985891 -3.024391)
+				(xy -10.987424 -3.397861) (xy -10.990466 -4.139337) (xy -8.694978 -4.139337) (xy -8.691744 -3.776231)
+				(xy -8.68851 -3.413125) (xy -8.313005 -3.409896) (xy -7.9375 -3.406666) (xy -7.9375 -3.036426) (xy -7.937241 -2.943672)
+				(xy -7.936508 -2.858889) (xy -7.935368 -2.785134) (xy -7.933884 -2.725464) (xy -7.932125 -2.682935)
+				(xy -7.930154 -2.660603) (xy -7.929359 -2.658045) (xy -7.915526 -2.655979) (xy -7.880381 -2.654105)
+				(xy -7.827035 -2.652494) (xy -7.758598 -2.651214) (xy -7.678181 -2.650335) (xy -7.588895 -2.649925)
+				(xy -7.563013 -2.649904) (xy -7.204808 -2.649904) (xy -7.204808 -3.392773) (xy -7.204889 -3.525145)
+				(xy -7.205123 -3.650135) (xy -7.205496 -3.765626) (xy -7.205994 -3.869503) (xy -7.206601 -3.95965)
+				(xy -7.207303 -4.033953) (xy -7.208087 -4.090296) (xy -7.208938 -4.126563) (xy -7.209841 -4.140641)
+				(xy -7.209892 -4.140729) (xy -7.222678 -4.141585) (xy -7.257768 -4.142291) (xy -7.313041 -4.142842)
+				(xy -7.386379 -4.143233) (xy -7.475661 -4.143458) (xy -7.57877 -4.143513) (xy -7.693584 -4.143392)
+				(xy -7.817985 -4.143089) (xy -7.949854 -4.1426) (xy -7.954977 -4.142577) (xy -8.694978 -4.139337)
+				(xy -10.990466 -4.139337) (xy -10.990568 -4.164135) (xy -10.233361 -4.164135) (xy -9.476154 -4.164135)
+				(xy -9.476154 -4.542692) (xy -9.476154 -4.92125) (xy -8.328446 -4.92125) (xy -7.180738 -4.92125)
+				(xy -7.177508 -4.545745) (xy -7.174279 -4.17024) (xy -6.810986 -4.167006) (xy -6.447692 -4.163771)
+				(xy -6.446284 -4.521141) (xy -6.44587 -4.612841) (xy -6.445391 -4.697086) (xy -6.444872 -4.770643)
+				(xy -6.44434 -4.830281) (xy -6.443821 -4.872766) (xy -6.443341 -4.894867) (xy -6.443231 -4.896827)
+				(xy -6.440135 -4.901968) (xy -6.430268 -4.906067) (xy -6.411229 -4.909239) (xy -6.380618 -4.911596)
+				(xy -6.336032 -4.913251) (xy -6.275071 -4.914316) (xy -6.195334 -4.914905) (xy -6.094419 -4.915131)
+				(xy -6.0535 -4.915144) (xy -5.665414 -4.915144) (xy -5.665599 -4.53964) (xy -5.665651 -4.445973)
+				(xy -5.665709 -4.360051) (xy -5.665771 -4.28495) (xy -5.665833 -4.223749) (xy -5.665893 -4.179524)
+				(xy -5.665948 -4.155354) (xy -5.665969 -4.151923) (xy -5.678108 -4.148139) (xy -5.713878 -4.145022)
+				(xy -5.772496 -4.142598) (xy -5.853177 -4.140893) (xy -5.955139 -4.13993) (xy -6.044893 -4.139712)
+				(xy -6.423633 -4.139712) (xy -6.420398 -3.776418) (xy -6.417164 -3.413125) (xy -6.041282 -3.407019)
+				(xy -5.6654 -3.400914) (xy -5.665592 -3.025409) (xy -5.665645 -2.931742) (xy -5.665705 -2.84582)
+				(xy -5.665768 -2.77072) (xy -5.665832 -2.709518) (xy -5.665893 -2.665293) (xy -5.665948 -2.641123)
+				(xy -5.665969 -2.637692) (xy -5.678176 -2.634869) (xy -5.714514 -2.632407) (xy -5.774691 -2.630311)
+				(xy -5.858418 -2.628586) (xy -5.965403 -2.627235) (xy -6.095358 -2.626264) (xy -6.24799 -2.625678)
+				(xy -6.423011 -2.625481) (xy -6.423451 -2.625481) (xy -7.180748 -2.625481) (xy -7.177514 -2.262188)
+				(xy -7.174279 -1.898894) (xy -6.419361 -1.892789) (xy -5.664442 -1.886683) (xy -5.662245 -1.514231)
+				(xy -5.660048 -1.141779) (xy -5.28149 -1.135673) (xy -4.902933 -1.129567) (xy -4.899787 -0.375323)
+				(xy -4.896641 0.378921) (xy -4.533441 0.375686) (xy -4.17024 0.372452) (xy -4.167141 0.012211) (xy 0.402981 0.012211)
+				(xy 0.402981 0.378558) (xy 0.769327 0.378558) (xy 1.135673 0.378558) (xy 1.135673 0.012211) (xy 1.135673 -0.354135)
+				(xy 0.769327 -0.354135) (xy 0.402981 -0.354135) (xy 0.402981 0.012211) (xy -4.167141 0.012211) (xy -4.167011 -0.002877)
+				(xy -4.163782 -0.378205) (xy -3.788454 -0.381434) (xy -3.413125 -0.384664) (xy -3.409896 -0.760168)
+				(xy -3.406879 -1.110897) (xy -2.625481 -1.110897) (xy -2.625481 -0.744727) (xy -2.625481 -0.378558)
+				(xy -1.880577 -0.378558) (xy -1.135673 -0.378558) (xy -1.135673 -0.757115) (xy -1.135673 -1.123462)
+				(xy 1.160096 -1.123462) (xy 1.160096 -0.378558) (xy 1.538654 -0.378558) (xy 1.917211 -0.378558)
+				(xy 1.917211 0) (xy 1.917211 0.378558) (xy 2.283558 0.378558) (xy 2.649904 0.378558) (xy 2.649904 -0.584317)
+				(xy 6.461943 -0.584317) (xy 6.462187 -0.512524) (xy 6.462832 -0.454851) (xy 6.463856 -0.414548)
+				(xy 6.465232 -0.394862) (xy 6.465501 -0.393797) (xy 6.472199 -0.389193) (xy 6.489801 -0.38565) (xy 6.520507 -0.383095)
+				(xy 6.566516 -0.381455) (xy 6.63003 -0.380655) (xy 6.713248 -0.380623) (xy 6.818371 -0.381284) (xy 6.835095 -0.381428)
+				(xy 7.198702 -0.384664) (xy 7.198702 -0.744904) (xy 7.198702 -1.105144) (xy 6.832356 -1.105144)
+				(xy 6.46601 -1.105144) (xy 6.462762 -0.757272) (xy 6.462127 -0.666983) (xy 6.461943 -0.584317) (xy 2.649904 -0.584317)
+				(xy 2.649904 -0.744904) (xy 2.649904 -1.510339) (xy 5.702788 -1.510339) (xy 5.703062 -1.419113)
+				(xy 5.703834 -1.335883) (xy 5.705035 -1.263763) (xy 5.706594 -1.205864) (xy 5.708441 -1.165299)
+				(xy 5.710505 -1.145178) (xy 5.711108 -1.143636) (xy 5.72498 -1.141638) (xy 5.760173 -1.140027) (xy 5.813589 -1.138848)
+				(xy 5.882128 -1.138141) (xy 5.96269 -1.137951) (xy 6.052178 -1.13832) (xy 6.080507 -1.138548) (xy 6.441586 -1.141779)
+				(xy 6.441586 -1.418599) (xy 7.220101 -1.418599) (xy 7.220108 -1.335855) (xy 7.220535 -1.264172)
+				(xy 7.221348 -1.206712) (xy 7.222515 -1.166635) (xy 7.224 -1.147102) (xy 7.224378 -1.145856) (xy 7.237406 -1.144057)
+				(xy 7.272732 -1.142459) (xy 7.328235 -1.141081) (xy 7.401793 -1.139945) (xy 7.491281 -1.139072)
+				(xy 7.594577 -1.13848) (xy 7.709559 -1.138192) (xy 7.834103 -1.138228) (xy 7.966086 -1.138608) (xy 7.971861 -1.138632)
+				(xy 8.712933 -1.141779) (xy 8.716167 -1.505166) (xy 8.719402 -1.868553) (xy 7.971263 -1.865407)
+				(xy 7.223125 -1.86226) (xy 7.220547 -1.509244) (xy 7.220101 -1.418599) (xy 6.441586 -1.418599) (xy 6.441586 -1.502019)
+				(xy 6.441586 -1.86226) (xy 6.072187 -1.865492) (xy 5.702788 -1.868724) (xy 5.702788 -1.510339) (xy 2.649904 -1.510339)
+				(xy 2.649904 -1.868365) (xy 1.905 -1.868365) (xy 1.160096 -1.868365) (xy 1.160096 -1.123462) (xy -1.135673 -1.123462)
+				(xy -1.135673 -1.135673) (xy -0.757115 -1.135673) (xy -0.378558 -1.135673) (xy -0.378558 -1.502019)
+				(xy -0.378558 -1.868365) (xy -0.757115 -1.868365) (xy -1.135673 -1.868365) (xy -1.135673 -2.246923)
+				(xy -1.135673 -2.625481) (xy -1.501926 -2.625481) (xy -1.868179 -2.625481) (xy -1.871325 -1.871418)
+				(xy -1.874471 -1.117356) (xy -2.249976 -1.114127) (xy -2.625481 -1.110897) (xy -3.406879 -1.110897)
+				(xy -3.406666 -1.135673) (xy -3.028285 -1.135673) (xy -2.649904 -1.135673) (xy -2.649904 -1.502019)
+				(xy -2.649904 -1.868365) (xy -3.407019 -1.868365) (xy -4.164135 -1.868365) (xy -4.164135 -2.625481)
+				(xy -4.164135 -3.382596) (xy -4.542692 -3.382596) (xy -4.92125 -3.382596) (xy -4.92125 -3.773365)
+				(xy -4.139712 -3.773365) (xy -4.139712 -3.407019) (xy -3.382596 -3.407019) (xy -2.625481 -3.407019)
+				(xy -2.625481 -3.02828) (xy -2.625481 -2.649541) (xy -2.262188 -2.652775) (xy -1.898894 -2.65601)
+				(xy -1.89576 -3.394808) (xy -1.11125 -3.394808) (xy -1.11125 -2.649904) (xy -0.732692 -2.649904)
+				(xy -0.354135 -2.649904) (xy -0.354135 -2.271346) (xy -0.354135 -1.892789) (xy 0.390769 -1.892789)
+				(xy 1.135673 -1.892789) (xy 1.135673 -2.098548) (xy 6.461943 -2.098548) (xy 6.462187 -2.026755)
+				(xy 6.462832 -1.969082) (xy 6.463856 -1.928778) (xy 6.465232 -1.909093) (xy 6.465501 -1.908027)
+				(xy 6.472199 -1.903423) (xy 6.489801 -1.899881) (xy 6.520507 -1.897326) (xy 6.566516 -1.895686)
+				(xy 6.63003 -1.894886) (xy 6.713248 -1.894854) (xy 6.818371 -1.895514) (xy 6.835095 -1.895659) (xy 7.198702 -1.898894)
+				(xy 7.198702 -2.259135) (xy 7.198702 -2.619375) (xy 6.832356 -2.619375) (xy 6.46601 -2.619375) (xy 6.462762 -2.271503)
+				(xy 6.462127 -2.181214) (xy 6.461943 -2.098548) (xy 1.135673 -2.098548) (xy 1.135673 -2.258958)
+				(xy 1.135673 -2.625128) (xy 0.760168 -2.628357) (xy 0.384663 -2.631587) (xy 0.381434 -3.006915)
+				(xy 0.378205 -3.382244) (xy 0.002877 -3.385473) (xy -0.372452 -3.388702) (xy -0.375681 -3.764207)
+				(xy -0.378911 -4.139712) (xy -0.74508 -4.139712) (xy -1.11125 -4.139712) (xy -1.11125 -3.394808)
+				(xy -1.89576 -3.394808) (xy -1.895747 -3.397861) (xy -1.892599 -4.139712) (xy -3.016156 -4.139712)
+				(xy -4.139712 -4.139712) (xy -4.139712 -3.773365) (xy -4.92125 -3.773365) (xy -4.92125 -5.293882)
+				(xy -4.92125 -6.050817) (xy -4.139712 -6.050817) (xy -4.139712 -5.678002) (xy -3.776418 -5.681237)
+				(xy -3.413125 -5.684471) (xy -3.413125 -6.050817) (xy -3.413125 -6.417164) (xy -3.776418 -6.420398)
+				(xy -4.139712 -6.423633) (xy -4.139712 -6.050817) (xy -4.92125 -6.050817) (xy -4.92125 -7.205168)
+				(xy -4.179399 -7.204806) (xy -4.046758 -7.204744) (xy -3.92122 -7.204691) (xy -3.804941 -7.204649)
+				(xy -3.700075 -7.204616) (xy -3.608779 -7.204594) (xy -3.533207 -7.204584) (xy -3.475516 -7.204585)
+				(xy -3.437861 -7.204598) (xy -3.422398 -7.204624) (xy -3.422284 -7.204626) (xy -3.419041 -7.209367)
+				(xy -3.41626 -7.224507) (xy -3.413911 -7.251541) (xy -3.411964 -7.291966) (xy -3.410389 -7.347279)
+				(xy -3.409155 -7.418975) (xy -3.408233 -7.508552) (xy -3.407591 -7.617505) (xy -3.407201 -7.747332)
+				(xy -3.407032 -7.899529) (xy -3.407019 -7.962095) (xy -3.407019 -8.719382) (xy -3.019303 -8.716157)
+				(xy -2.631587 -8.712933) (xy -2.628358 -8.337604) (xy -2.625128 -7.962276) (xy -2.2498 -7.959047)
+				(xy -1.874471 -7.955817) (xy -1.871247 -7.568101) (xy -1.868022 -7.180385) (xy -2.246752 -7.180385)
+				(xy -2.625481 -7.180385) (xy -2.625481 -6.050754) (xy -2.625481 -4.921122) (xy -1.505072 -4.924239)
+				(xy -0.384664 -4.927356) (xy -0.384664 -5.67226) (xy -0.384664 -6.417164) (xy -0.744904 -6.417164)
+				(xy -1.105144 -6.417164) (xy -1.108374 -6.041659) (xy -1.109454 -5.948694) (xy -1.110975 -5.864099)
+				(xy -1.112842 -5.790823) (xy -1.11496 -5.731815) (xy -1.117231 -5.690025) (xy -1.11956 -5.668403)
+				(xy -1.120585 -5.666038) (xy -1.134589 -5.665992) (xy -1.169985 -5.665915) (xy -1.223745 -5.665813)
+				(xy -1.292838 -5.665691) (xy -1.374234 -5.665555) (xy -1.464904 -5.665411) (xy -1.508125 -5.665344)
+				(xy -1.886683 -5.664766) (xy -1.886683 -6.053176) (xy -1.886683 -6.441587) (xy -1.514231 -6.444048)
+				(xy -1.141779 -6.446509) (xy -1.138678 -7.94912) (xy -1.136333 -9.085385) (xy 1.160096 -9.085385)
+				(xy 1.160096 -8.719039) (xy 1.905 -8.719039) (xy 2.649904 -8.719039) (xy 2.649904 -9.085385) (xy 2.649904 -9.451731)
+				(xy 1.905 -9.451731) (xy 1.160096 -9.451731) (xy 1.160096 -9.085385) (xy -1.136333 -9.085385) (xy -1.135577 -9.451731)
+				(xy -1.514183 -9.451731) (xy -1.892789 -9.451731) (xy -1.892789 -9.830289) (xy -1.892789 -10.208846)
+				(xy -2.259135 -10.208846) (xy -2.625481 -10.208846) (xy -2.625481 -9.830289) (xy -2.625481 -9.451731)
+				(xy -3.38242 -9.451731) (xy -4.139359 -9.451731) (xy -4.142588 -9.076226) (xy -4.145817 -8.700721)
+				(xy -4.533534 -8.697497) (xy -4.92125 -8.694272) (xy -4.92125 -9.84242) (xy -4.92125 -10.990568)
+				(xy -4.154976 -10.987424) (xy -3.388702 -10.984279) (xy -3.385473 -10.608774) (xy -3.382243 -10.233269)
+				(xy -3.016074 -10.233269) (xy -2.649904 -10.233269) (xy -2.649904 -10.611919) (xy -2.649904 -10.990568)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "0394894e-c4c4-4d94-a9c7-a3f5b8d08b5f")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "custom_parts:D_0805_2012Metric-Reversible"
 		(layer "F.Cu")
@@ -59659,7 +60340,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/ffc0f1e1-36c1-42c3-b8b6-132dfdc9ef60")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -59997,7 +60678,7 @@
 			(net 9 "ROW4")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "8a4fad6f-5a4a-4994-b137-55241069938e")
+			(uuid "74865854-5d23-46c8-9be5-ba0dc89803d4")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -60017,7 +60698,7 @@
 			(net 78 "Net-(D23-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "04053537-e1db-49aa-9c05-d8e857960526")
+			(uuid "ea3b2db8-1bc7-470b-878a-59441934e8d1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -60140,7 +60821,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/7ddd4c7b-c8c0-4da8-97a2-02a4050cb86a")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -60478,7 +61159,7 @@
 			(net 8 "ROW3")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "6529c2e8-3a2c-4128-8586-04927b1baf39")
+			(uuid "f1bfcde7-ef76-48a9-99de-ea4c844f36b5")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -60498,7 +61179,7 @@
 			(net 68 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ad34c9ec-0502-4e87-ac0a-b744c3ee0f5f")
+			(uuid "b0ae1c53-b098-430b-b6aa-ec11489e8acd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -60572,7 +61253,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/e3937030-086e-4642-9893-c34304db9b82")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -60885,7 +61566,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "b621bdbb-7be4-486d-a49e-8eddc3047423")
+			(uuid "f9487837-3f7b-4238-8d02-28552bc342c6")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -60903,7 +61584,7 @@
 			(net 90 "Net-(SKD10-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "1711c8c3-77d5-4c9c-a3af-4b11623b5fa2")
+			(uuid "be27858c-ad07-4b1f-82f0-6607d3abbdc4")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -60923,7 +61604,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "4dac027d-2435-4831-9bd8-7385ce291aa2")
+			(uuid "f6a90eab-5862-4d16-99b5-daedc6e9136c")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -60941,7 +61622,7 @@
 			(net 91 "Net-(SKD10-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "4db6af3b-1814-4d27-890e-e7fda9613563")
+			(uuid "834c03e0-3625-4edb-b198-5d8ee86e1b35")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -61015,7 +61696,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/d693823c-cf94-4cf1-bb39-862e95dbef4b")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -61328,7 +62009,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "d420baac-d6bd-49d8-a6ea-3ad6ee8bda8d")
+			(uuid "ef2da8b1-b908-444f-9972-c42633130476")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -61346,7 +62027,7 @@
 			(net 102 "Net-(SKD23-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "3faf66f4-78d5-45bd-b67e-54cc2c8eba75")
+			(uuid "33b44624-3df6-4f16-8c29-83d5fbe1fe8b")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -61366,7 +62047,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "a36c1122-ed55-478d-bb4a-6aa58dc74ac4")
+			(uuid "8ed4c67a-7a83-4c1f-b521-87b3e76383b9")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -61384,7 +62065,7 @@
 			(net 97 "Net-(SKD18-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "8f40bd51-3182-4e35-9e30-c2d861f4ff8f")
+			(uuid "ed651a9d-9e6d-4573-b8fc-36d10cf0c725")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -61480,7 +62161,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/a160f9da-f89e-44df-9b46-0a28e7eeeecb")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -62788,7 +63469,7 @@
 			(net 80 "Net-(D25-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8823868b-c341-44ad-b7fc-22fd2e714039")
+			(uuid "d8ce9833-63dc-43b4-813b-a514a8134a83")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -62808,7 +63489,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7bd6da72-2551-4ac2-a230-7ce73533f4f7")
+			(uuid "393ff4bd-c21d-4779-b5e3-6c63e0aa3197")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -62931,7 +63612,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/9192e2c4-0615-4b1a-98b1-9c3f5533f4d5")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -63269,7 +63950,7 @@
 			(net 71 "Net-(D16-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "ac9af400-7852-4e49-aa41-8e7f308611e1")
+			(uuid "2b222027-3a93-4551-8f4a-0fedf3ec1196")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -63289,7 +63970,7 @@
 			(net 8 "ROW3")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ad7d0ee5-1694-4e4d-a808-8c8d9ce4b7d9")
+			(uuid "1e60ba73-b8a3-414e-9fb4-709471126149")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -63357,7 +64038,7 @@
 		(path "/f9ddd65f-c907-42e9-8df2-1d1598149e0b")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 4.47 0)
 			(end 4.47 -7.3)
@@ -63540,7 +64221,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "input")
-			(uuid "db3bc1f7-d68f-4725-962b-ef4f0997e0a4")
+			(uuid "55df1f43-5981-47a1-8e6b-23d8c67edefa")
 		)
 		(pad "13" thru_hole oval
 			(at 4.32 -6.78 180)
@@ -63551,7 +64232,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "input")
-			(uuid "db3bc1f7-d68f-4725-962b-ef4f0997e0a4")
+			(uuid "cf21fa69-0e09-4700-b9a9-4230162df93e")
 		)
 		(pad "13" thru_hole oval
 			(at 4.32 -2.6 180)
@@ -63562,7 +64243,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "input")
-			(uuid "db3bc1f7-d68f-4725-962b-ef4f0997e0a4")
+			(uuid "d8c14d12-790a-42e6-b171-725ed763570c")
 		)
 		(embedded_fonts no)
 	)
@@ -63647,7 +64328,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/a0670b87-bd64-425d-bfc4-90bbbda6b940")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 -7.6)
 			(end -7.6 -7.6)
@@ -64955,7 +65636,7 @@
 			(net 84 "Net-(D29-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0ecdc8cb-d73a-4879-b270-46b5099a00c0")
+			(uuid "b988aa5e-279e-472e-9b6d-d5f5a97d6dd4")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8 330)
@@ -64975,7 +65656,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0554ae4d-47c9-4b40-aa54-d14acf8dcc16")
+			(uuid "9a04519d-0f7c-43df-ae31-5cffd8f0c3c2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -65049,7 +65730,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/5a5c88fe-43d2-4617-8c8c-6cfa3a39b817")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -65362,7 +66043,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "b3acefc9-50bb-4596-80cf-ed722fd8ec44")
+			(uuid "6360cff2-a07b-4e78-9fce-b32ba1632326")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -65380,7 +66061,7 @@
 			(net 114 "Net-(SKD19-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "ce15c378-ccad-4de5-beae-dc6dd296ae68")
+			(uuid "49789b26-f2c7-4716-8ef2-8d5907494c4f")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -65400,7 +66081,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "d2f0da70-4756-43d2-b2c7-d745bbb6034d")
+			(uuid "81fa5e4e-0bf8-4260-9f3b-e147b9a14e75")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -65418,7 +66099,7 @@
 			(net 103 "Net-(SKD25-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "b32472f0-71aa-452a-8f55-7218c4381879")
+			(uuid "a21ea7e9-a59e-4f72-adab-c28445de18ab")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -65489,7 +66170,7 @@
 		(path "/f3f2a139-e929-43bd-96cd-260fd64b0771")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -65789,7 +66470,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "4f795a09-5fce-4365-a5f3-cbfcd08e7616")
+			(uuid "530f8179-6ab8-48bd-9ec3-c18c156dfcad")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
@@ -65807,7 +66488,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "e7cd882d-bdfb-425f-aaa4-cb0debfff6ca")
+			(uuid "06b76c56-d3ca-4734-9a9d-2110b3d9b864")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -65903,7 +66584,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/b01f99e8-ed35-4276-8716-c7fd05394cd7")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -67211,7 +67892,7 @@
 			(net 81 "Net-(D26-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3974fdd6-f3a6-4f63-9e14-dc8ba596bf65")
+			(uuid "56d4e25d-0263-4467-af92-5652c773d0df")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -67231,7 +67912,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "103b4c99-3881-46f4-b60e-54a21740cfd0")
+			(uuid "39f93171-4d1d-4751-a2d9-4db5339495f6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -67305,7 +67986,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/cee52e9e-a6f3-45fc-8ead-e1737192cb8c")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -67618,7 +68299,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "824b3cb5-f8d1-4e41-a27e-54b8af56bbe4")
+			(uuid "55a404bf-1b2f-4986-8779-777af06c4ffa")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -67636,7 +68317,7 @@
 			(net 88 "Net-(SKD4-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "f14b7632-89e6-459c-ba4b-8a3992fb2fca")
+			(uuid "1f0ffc2c-0379-4741-9bb8-4e0d2f655bbb")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -67656,7 +68337,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "26591ae3-3009-4929-8f2f-4205b71acd50")
+			(uuid "32c19172-2cdd-49a4-8c40-54c04df37928")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -67674,7 +68355,7 @@
 			(net 89 "Net-(SKD5-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "dd3e345d-9478-453e-b322-1ef7ef5ff885")
+			(uuid "4be32f27-e0b9-4737-8c71-449bb98fe368")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -67770,7 +68451,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/b245e5d5-9d9a-4227-ba35-df6f25272cef")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -69078,7 +69759,7 @@
 			(net 71 "Net-(D16-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a84d46fb-41a7-452b-a64a-8f1fa85eb29b")
+			(uuid "df907f94-c44d-4e38-ab29-3269b2610446")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -69098,7 +69779,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "89b0e78e-7ad9-4a4e-8a63-64d0eceaadab")
+			(uuid "761dd153-3235-441a-b8c5-8e03fd278d8b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -69221,7 +69902,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/2af05836-49d5-4718-b38e-ae880671c293")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -69559,7 +70240,7 @@
 			(net 67 "Net-(D12-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "02bcd6ee-8f18-4bd8-92df-44682b535ca8")
+			(uuid "25a03521-9783-46a0-aa2f-6d763d8f8cd5")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -69579,7 +70260,7 @@
 			(net 7 "ROW2")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "c98e7b05-5623-4c08-ace3-69b374f7556d")
+			(uuid "a0ab2cd6-000d-4728-9fab-d9b64f55ead1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -69653,7 +70334,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/d4c29588-f745-4838-a946-176a26f32365")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -69966,7 +70647,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "fdce69ab-5431-418e-8075-6a459e59f80e")
+			(uuid "ac9e84d6-ba4d-4411-8a3f-bb983763b3c4")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -69984,7 +70665,7 @@
 			(net 98 "Net-(SKD19-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "4ec28818-026a-452d-a8ca-0a11f6a64a94")
+			(uuid "21d315d7-66bc-4fdc-aa10-e41bd3de1ef3")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -70004,7 +70685,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "cd8615fe-3d81-446a-8bdb-922c5c628290")
+			(uuid "d3025ea9-b720-4ef2-b82b-12c43342961c")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -70022,7 +70703,7 @@
 			(net 99 "Net-(SKD20-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "9ff77ca2-badf-4ac4-831c-3eadf9a1c56b")
+			(uuid "c2f4479d-8518-4ebc-8f64-ebe3002f3f25")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -70145,7 +70826,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/2b03b91e-da66-4269-93d6-4391408d6f2f")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -70483,7 +71164,7 @@
 			(net 8 "ROW3")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "3de2c11c-dc36-4c47-938b-3a263f7e9505")
+			(uuid "2346b611-70bc-4d14-941b-2e3af26680fb")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -70503,7 +71184,7 @@
 			(net 70 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ea9b0df6-61c3-4845-9eaa-0ad2b65e4d71")
+			(uuid "ce3619c1-702c-43f4-a77e-acc26a20daf9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -70599,7 +71280,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/0a133646-3b6f-4af0-942b-c27c0ab6eaf5")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -71907,7 +72588,7 @@
 			(net 63 "Net-(D8-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "008dfcc1-e5fc-4cd9-a498-f0fde5be200a")
+			(uuid "eb8f52fc-c130-4ef3-b4e0-11bdc5d164f7")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -71927,7 +72608,7 @@
 			(net 22 "COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "089796d5-d54e-480b-b874-2a5c3bc1f54f")
+			(uuid "675ec0a5-755f-4de0-9202-dae455e8f639")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -72001,7 +72682,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/2d5aaa51-34fa-4a73-b135-e195dd371e1b")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -72314,7 +72995,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "9908c968-a3c5-4c5a-8e5d-381739892e96")
+			(uuid "341b319b-e8a4-468d-9a11-5538ffd1a42c")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75 345)
@@ -72332,7 +73013,7 @@
 			(net 105 "Net-(SKD27-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "67c08f34-d57d-4495-a8df-d4effd1f5e17")
+			(uuid "53e9463e-ec24-443f-9737-eb391a94cc4b")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75 345)
@@ -72352,7 +73033,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "5cd97e20-fc4b-4fe0-b0fd-4569b8b42049")
+			(uuid "661af158-070f-4547-aefa-5dcade5769e3")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75 345)
@@ -72370,7 +73051,7 @@
 			(net 106 "Net-(SKD28-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "8c9ab496-cf68-4214-94c7-9f2eff273516")
+			(uuid "a987364b-449d-4a19-af7c-9fa290333dc1")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -72444,7 +73125,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/1d9e2665-d4d0-4576-a227-5c1975dd48ea")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
@@ -72757,7 +73438,7 @@
 			(net 2 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "8ffe43a2-e36c-4826-b52c-5fa3a8319d13")
+			(uuid "83bbe6a7-84bf-47cd-9697-623e20c5a645")
 		)
 		(pad "2" smd rect
 			(at -2.675 -0.75)
@@ -72775,7 +73456,7 @@
 			(net 111 "Net-(SKD7-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "f18b9995-6976-47e6-a9ae-f02183637dd8")
+			(uuid "a1b62387-cf79-4f95-8cf5-f33c7857e888")
 		)
 		(pad "3" smd roundrect
 			(at 2.675 -0.75)
@@ -72795,7 +73476,7 @@
 			(net 5 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "1ea2c54e-830f-41e5-bedd-3e4adffa0e1a")
+			(uuid "379e7010-d7c8-447e-b39d-af09bb497b58")
 		)
 		(pad "4" smd rect
 			(at 2.675 -0.75)
@@ -72813,7 +73494,7 @@
 			(net 112 "Net-(SKD8-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "70f738c0-2c6d-4f35-ab97-834f0a8a27d1")
+			(uuid "41433cd6-4d24-42ed-b8a4-8ef94584da62")
 		)
 		(embedded_fonts no)
 		(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
@@ -72909,7 +73590,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/56f396ab-9429-4a48-a9e2-db8e7de878e0")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -74217,7 +74898,7 @@
 			(net 72 "Net-(D17-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "05b9680e-6b1d-4c2d-adef-0e14e57d4c2c")
+			(uuid "632a4816-4f21-4315-a3bf-8c1fcb07bd6e")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -74237,7 +74918,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "eeef38a8-35fc-4a05-8578-7cfe6446630c")
+			(uuid "2e189d78-2285-49e5-b833-8f4ea964396a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -74333,7 +75014,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/fb42eadb-1257-47fe-90e4-0a23908d53d0")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -75641,7 +76322,7 @@
 			(net 65 "Net-(D10-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6ee67114-ffbd-4993-9b19-11e3f2237994")
+			(uuid "32f78291-90a4-4aa4-959b-3f2d99b8bba3")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -75661,7 +76342,7 @@
 			(net 23 "COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3910760d-a99c-4e50-ad0d-13207cd76617")
+			(uuid "76759f0a-07d5-4c5d-86f4-d6e6a179e451")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -75784,7 +76465,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/ff503915-2fa7-4a99-9054-4ea5a4300c3b")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -76122,7 +76803,7 @@
 			(net 9 "ROW4")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "0f83e9eb-d38b-413c-b9e1-ac717f047d7e")
+			(uuid "dba94852-7a64-4399-ad75-6f076733266e")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 180)
@@ -76142,7 +76823,7 @@
 			(net 76 "Net-(D21-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "d5877ac3-d504-4c25-8398-d1d641f20d68")
+			(uuid "e7a67d13-1e8a-4cec-a81e-3b7222f32b39")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -76215,7 +76896,7 @@
 		(path "/668d6dca-694d-4459-8416-f27b833ee9e9/b126c1a0-c042-4980-803f-9c225a444179")
 		(sheetname "/power_comms/")
 		(sheetfile "power_comms.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.85 -3.41)
 			(end 1.91 -3.41)
@@ -76397,7 +77078,7 @@
 			(net 4 "VCC")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "af6e9332-60ff-4068-bcf4-1da775cc6eda")
+			(uuid "9d622ea9-98f5-444a-a907-229f5a1b0565")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
@@ -76491,7 +77172,7 @@
 		(path "/6184f312-ddfb-43f0-b221-dbec7d6ac91a")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1 -0.96)
 			(end -1.685 -0.96)
@@ -76829,7 +77510,7 @@
 			(net 54 "Net-(D60-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "a67a18d2-4e8a-407a-ac79-c89fd2e22cb0")
+			(uuid "4f4789e8-7272-4527-8003-b1910b3b1106")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0 90)
@@ -76849,7 +77530,7 @@
 			(net 12 "STATUS_LED")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "a329a40b-eeac-4aca-89fd-76f80e790a58")
+			(uuid "38878498-6ea6-4ebf-ae5f-d9cb75cd0e56")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -76920,7 +77601,7 @@
 		(path "/18a3caae-9e6a-47d1-b2dd-80cf8c2be1e7")
 		(sheetname "/")
 		(sheetfile "matrix-split.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -77220,7 +77901,7 @@
 			(roundrect_rratio 0.25)
 			(net 4 "VCC")
 			(pintype "passive")
-			(uuid "6979c646-4b5d-4537-b598-81b2f58a32d1")
+			(uuid "13f4a4a5-3a61-4cf3-890a-bfc4473d5fdc")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0)
@@ -77238,7 +77919,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "6087a1b7-e86f-4fda-bfb2-19c6b720dc43")
+			(uuid "b610fab1-2319-4874-96c1-bc3182ad9326")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -77334,7 +78015,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/5d4aa089-658c-4408-9db6-f4c4069af33d")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 7.6 7.6)
 			(end 7.6 -7.6)
@@ -78642,7 +79323,7 @@
 			(net 78 "Net-(D23-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a788db42-e543-4125-a336-5e312ed8568b")
+			(uuid "4f1ac97d-20bf-45a7-83bd-f2f1fd297c88")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -3.8)
@@ -78662,7 +79343,7 @@
 			(net 24 "COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4ccca7f6-be0e-42dd-9fd6-a61f8c56180e")
+			(uuid "16d20b0f-fd42-48de-87d6-0d9f94b344cc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -78785,7 +79466,7 @@
 		(path "/7fc7b2d2-93ad-4707-8a9c-1d325a74787a/dcaf33a6-26d2-4dd1-b62f-108e1a235c72")
 		(sheetname "/switch_matrix/")
 		(sheetfile "switch_matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -79123,7 +79804,7 @@
 			(net 63 "Net-(D8-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "a6b3ed84-e86a-47ae-8991-c233b00414b7")
+			(uuid "7daf9b9b-9b38-49f8-997d-d5397c480070")
 		)
 		(pad "2" smd roundrect
 			(at 0.9375 0)
@@ -79143,7 +79824,7 @@
 			(net 7 "ROW2")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "dd3d27be-aa0e-4d04-b770-97fd1cb15a6c")
+			(uuid "778d8c1b-c9a0-4277-a61e-62204c3ca5a1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.step"
@@ -79311,6 +79992,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e25759b7-ed16-45c4-bb79-0e622ab171db")
+	)
+	(gr_text "Rasle-KB\nMatrixSenpai"
+		(at 160.44 116.73 0)
+		(layer "F.SilkS")
+		(uuid "c21475ce-2552-4dc7-82c9-7dd339f8ee41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
 	)
 	(segment
 		(start 153.97 53.3775)

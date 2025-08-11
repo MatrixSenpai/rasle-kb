@@ -1,4 +1,4 @@
-28405493212875587
+28407248209416700
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -113378,6 +113378,13 @@ Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout
 0
 4
 2
+custom_parts
+qrcode
+
+
+0
+0
+0
 keyswitches
 Kailh_socket_MX
 MX-style keyswitch with Kailh socket mount
