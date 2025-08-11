@@ -7,3 +7,6 @@
 [submodule "pcb/zzkeeb"]
 	path = pcb/zzkeeb
 	url = git@github.com:zzeneg/zzkeeb.git
+[submodule "pcb/Keebio-Parts.pretty"]
+	path = pcb/Keebio-Parts.pretty
+	url = git@github.com:keebio/Keebio-Parts.pretty.git

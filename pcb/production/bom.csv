@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+U1,SOIC-8_5.3x5.3mm_P1.27mm,1,W25Q128JVS,
+U2,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,1,RP2040,
+Y1,Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm,1,ABM8-272-T3,

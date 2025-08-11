@@ -3,4 +3,6 @@
   (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/keyswitches.pretty")(options "")(descr ""))
   (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/Type-C.pretty")(options "")(descr ""))
   (lib (name "zzkeeb")(type "KiCad")(uri "${KIPRJMOD}/zzkeeb")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "custom_parts")(type "KiCad")(uri "${KIPRJMOD}/custom_parts")(options "")(descr ""))
 )
